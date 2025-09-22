@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  {{ with .Params.description }}<meta name="description" content="{{ . }}" />{{ else }}{{ with .Site.Params.description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+</head>
+<body class="bg-gray-50 text-gray-700">
+  <header class="bg-white border-b border-gray-200">
+    <div class="container flex flex-col gap-4 py-6 md:flex-row md:items-center md:justify-between">
+      <a href="{{ "/" | relURL }}" class="flex items-center gap-3 text-xl font-heading font-bold text-gray-900">
+        {{ with .Site.Params.logo }}<img src="{{ . }}" alt="{{ $.Site.Title }} logo" class="h-10 w-10" loading="lazy" />{{ end }}
+        <span>{{ .Site.Title }}</span>
+      </a>
+      {{ if .Site.Menus.main }}
+      <nav>
+        <ul class="flex flex-wrap gap-6 text-sm font-medium text-gray-600">
+          {{ range .Site.Menus.main }}
+            <li><a class="hover:text-primary-600" href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+      {{ end }}
+    </div>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="container grid gap-10 py-12 md:grid-cols-3">
+      <div>
+        <h2 class="text-lg font-heading font-semibold text-gray-900">{{ .Site.Title }}</h2>
+        {{ with .Site.Params.description }}
+        <p class="mt-4 text-sm text-gray-600">{{ . }}</p>
+        {{ end }}
+      </div>
+      {{ range $i, $menu := (slice .Site.Menus.footer_column_1 .Site.Menus.footer_column_2 .Site.Menus.footer_column_3) }}
+        {{ if $menu }}
+        <div>
+          <h3 class="text-sm font-heading font-semibold uppercase tracking-wide text-gray-500">{{ index (slice "Features" "Organisation" "Policies") $i }}</h3>
+          <ul class="mt-4 space-y-3 text-sm text-gray-600">
+            {{ range $menu }}
+              <li><a class="hover:text-primary-600" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="border-t border-gray-200 py-6 text-center text-xs text-gray-500">
+      © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

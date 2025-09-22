@@ -1,90 +1,41 @@
 ---
-title: "About Our Company"
-layout: "company"
-description: "Learn about our mission, leadership team, and the investors backing our vision"
+title: "About Independent Impact"
+layout: "simple"
+description: "Independent Impact is an open platform that makes verifiable human impact legible, auditable, and trusted."
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32" >}}
-    <div class="text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">Building the Future of SaaS</h1>
-        <p class="text-xl text-gray-600 mb-16">We're on a mission to revolutionize how businesses operate in the digital age</p>
-        <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8">
-            <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
-            <p class="text-xl text-gray-600">
-                We're dedicated to empowering businesses with innovative SaaS solutions that drive growth and efficiency. Our platform combines cutting-edge technology with intuitive design to solve complex business challenges.
-            </p>
-        </div>
-    </div>
-{{< /section-container >}}
+## Mission
 
-{{< section-container class="py-20 bg-gray-50" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Leadership Team</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{< team-member 
-                name="Sarah Johnson"
-                title="Chief Executive Officer"
-                image="/images/company/exec-1.svg"
-                linkedin="#"
-            >}}
-            {{< team-member 
-                name="Michael Chen"
-                title="Chief Technology Officer"
-                image="/images/company/exec-2.svg"
-                linkedin="#"
-            >}}
-            {{< team-member 
-                name="Emily Rodriguez"
-                title="Chief Product Officer"
-                image="/images/company/exec-3.svg"
-                linkedin="#"
-            >}}
-        </div>
-    </div>
-{{< /section-container >}}
+Independent Impact enables communities to report, quantify, and verify human impact in a radically open and transparent manner. The platform does not prescribe what outcomes must look like; instead, it ensures anyone can understand precisely what every tokenised impact or verifiable credential represents. Participants choose the metrics, methodologies, and assurance levels that fit their context while relying on shared transparency to build confidence.
 
-{{< section-container class="py-20" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Backed by World-Class Investors</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            {{< investor-logo name="Sequoia Capital" image="/images/company/investor-1.svg" >}}
-            {{< investor-logo name="Andreessen Horowitz" image="/images/company/investor-2.svg" >}}
-            {{< investor-logo name="Accel" image="/images/company/investor-3.svg" >}}
-            {{< investor-logo name="Benchmark" image="/images/company/investor-4.svg" >}}
-        </div>
-    </div>
-{{< /section-container >}}
+## Participation
 
-{{< section-container class="py-20 bg-gray-50" >}}
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Company Values</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{< value-card 
-                title="Innovation First"
-                icon="lightbulb"
-                description="We constantly push boundaries and embrace new technologies to solve complex challenges."
-            >}}
-            {{< value-card 
-                title="Customer Success"
-                icon="users"
-                description="Our customers' success is our success. We're committed to delivering exceptional value."
-            >}}
-            {{< value-card 
-                title="Transparency"
-                icon="eye"
-                description="We believe in open communication and building trust through transparency."
-            >}}
-        </div>
-    </div>
-{{< /section-container >}}
+Independent Impact invites new participants as implementers, validators, verifiers, and methodology developers. Every action is subject to ongoing peer review, and access to different platform capabilities is governed by reputation requirements. Reputation is earned through meaningful contributions—submitting robust projects, executing activities with integrity, and providing diligent evaluation or verification. The reputations of project creators and the reviewers who assessed them are visible to potential buyers, creating clear accountability.
 
-{{< section-container class="py-20" >}}
-    <div class="max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            {{< stat number="2015" label="Founded" >}}
-            {{< stat number="200+" label="Team Members" >}}
-            {{< stat number="10k+" label="Customers" >}}
-            {{< stat number="50M+" label="Annual Revenue" >}}
-        </div>
-    </div>
-{{< /section-container >}}
+## Reputation and Governance
+
+Balancing openness with quality requires a meritocratic approach. Reputation signals accumulated trust in agents and controls (including methodologies) and determines which responsibilities each participant can accept. Community members continually evaluate artefacts, methodologies, and peer performance, ensuring the platform keeps advancing in rigour while remaining welcoming to new contributors.
+
+## Transparency and Access
+
+Independent Impact combines secure, immutable storage with easily accessible data services. Artefacts and transactions are recorded using content-addressed storage and distributed ledger technologies, making them tamper-evident and persistent. At the same time, users can query artefacts and events in depth, so they always know how an impact claim was generated, who reviewed it, and which methodologies were applied.
+
+## Technology Foundations
+
+- **Hedera Consensus Service** for event journaling and tamper-evident sequencing of platform actions.
+- **W3C Decentralised Identifiers (DID)** to bind activity to accountable agents while enabling open onboarding.
+- **W3C Verifiable Credentials** to encode attestations that downstream users can independently verify.
+- **IPFS** for immutable, distributed storage of impact documentation.
+- **Jellyfish** to provide verifiable compute for transparent, reproducible assessments.
+- **Fluree** as a cryptographically secured, time-travelable semantic database capturing platform knowledge.
+- **Hedera Token Service** for issuing transparent, reputation-aware impact tokens.
+
+## Current Focus Areas
+
+- Operating the PDD validation workflow that guides projects from submission to verifiable credential issuance.
+- Extending verifiable compute integrations so quantitative assessments remain reproducible and auditable.
+- Preparing methodology development workflows and first-mile data collection tools that will broaden the platform’s reach.
+
+## Get Involved
+
+We are expanding collaborations with organisations that value transparent impact accounting. _Who should potential partners contact, and are there priority regions or sectors we should highlight?_ Until we publish contact details, please reach out through the general address listed in the site footer.

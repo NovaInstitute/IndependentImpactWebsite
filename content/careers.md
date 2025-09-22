@@ -1,42 +1,26 @@
 ---
-title: "Join Our Team"
-description: "Be part of a team that's revolutionizing the SaaS industry with innovative solutions and a people-first culture."
-layout: "career"
-
-culture_section:
-  title: "Our Culture"
-  image: "/images/team.jpg"
-  image_alt: "Our Team"
-  image_caption: "Join our amazing team!"
-  values:
-    - icon: "🌟"
-      title: "Innovation First"
-      description: "We encourage creative thinking and empower our team to push boundaries and explore new possibilities."
-    - icon: "🤝"
-      title: "Collaborative Spirit"
-      description: "We believe in the power of teamwork and foster an environment where everyone's voice is heard and valued."
-    - icon: "🌱"
-      title: "Growth Mindset"
-      description: "We invest in our team's development and provide opportunities for continuous learning and advancement."
-
-benefits_section:
-  title: "Why Join Us?"
-  benefits:
-    - icon: "💪"
-      title: "Health & Wellness"
-      description: "Comprehensive health coverage, wellness programs, and mental health support."
-    - icon: "🎯"
-      title: "Work-Life Balance"
-      description: "Flexible working hours, remote options, and unlimited PTO policy."
-    - icon: "📚"
-      title: "Learning & Development"
-      description: "Professional development budget and regular learning sessions."
-
-positions_section:
-  title: "Open Positions"
-  view_position_text: "View Position"
+title: "Participate"
+description: "Independent Impact welcomes implementers, validators, verifiers, and methodology developers who share a commitment to transparent impact accounting."
+layout: "simple"
 ---
 
-At Saasify, we believe in empowering our team members to do their best work. We foster an environment of innovation, collaboration, and continuous learning. Our culture is built on trust, transparency, and a shared commitment to excellence.
+## Join the Independent Impact Community
 
-We're looking for passionate individuals who want to make a difference and grow with us. If you're excited about building the future of SaaS and working with cutting-edge technology, we'd love to hear from you.
+Independent Impact is designed for mass participation. Whether you build projects on the ground, review methodologies, or validate data, there is a pathway for you to contribute to verifiable human impact.
+
+### How You Can Contribute
+
+- **Implementers** bring forward projects and interventions, documenting their plans and results so they can be evaluated transparently.
+- **Validators** review project design documents and methodologies to confirm that the proposed evidence and controls are sound.
+- **Verifiers** examine outcomes, data provenance, and adherence to methodologies before credentials and tokens are issued.
+- **Methodology developers** craft and refine the frameworks that other participants rely on.
+
+### Working Principles
+
+- Openness to new participants paired with reputation requirements that protect quality.
+- Peer review at every stage so contributions stay accountable and communities learn from each other.
+- Transparent histories for artefacts and credentials so buyers and partners know exactly what they are supporting.
+
+### Getting Started
+
+_What onboarding process should new participants follow, and are there training materials we can link to?_ We will update this page with concrete steps once we gather that information. For now, please reach out via the contact details in the site footer and share how you would like to contribute.
