@@ -3,10 +3,20 @@
 The current site reflects the information provided in `referencematerial.md`. To continue development, please help clarify the following items.
 
 ## Philosophy & Story
+
+### Questions
 - What is the complete list of ontologies released alongside the Anthropogenic Impact Accounting Ontology (AIAO), and who currently stewards them?
 - Are there public resources (whitepapers, case studies, repositories) that describe the Guardian cookstove methodology which we can link on the site?
 - What outcomes and metrics does the adaptation methodology prioritise, and are there published materials we should reference?
 - Can we share milestones or dates for the launch of Independent Impact and the publication of AIAO?
+
+### Answers
+
+- The Ontologies are: 1. Anthropogenic Impact Accounting Ontology (AIAO) housed at https://w3id.org/aiao, 2. Impact Ontology https://w3id.org/impactont , 3. Claim Ontology (https://w3id.org/claimont) 4. Information Communication Ontology https://w3id.org/infocomm. All were developed with the Standards Working Group of the Climate Action and Accounting Special Interest Group of the Linux Foundation Decentralized Trust (https://www.lfdecentralizedtrust.org/)
+- The Aartum whitepaper is at https://aartum.io/pdf/aartum_programme_whitepaper_ver5. A video on the Cookstove work is here: https://www.youtube.com/watch?v=BQRoSuIp5UE&t=81s . I will add more later. 
+- The Adaptation methodology with a worked-out example with real data is in the References directory as Methodology.pdf
+- AIAO was published in September 2025. 
+  
 
 ## Participation & Governance
 - Which contact details (email addresses, forms, or partner portals) should prospective collaborators use? Are there priority regions or sectors to highlight?
