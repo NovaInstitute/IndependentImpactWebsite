@@ -19,10 +19,19 @@ The current site reflects the information provided in `referencematerial.md`. To
   
 
 ## Participation & Governance
+
+### Questions
 - Which contact details (email addresses, forms, or partner portals) should prospective collaborators use? Are there priority regions or sectors to highlight?
 - What onboarding process should new participants follow? Do we have training materials or documentation to link?
 - What reputation thresholds or levels gate responsibilities such as validation, verification, or methodology authorship?
 - How are disputes or appeals about reputation handled within the community governance model?
+
+### Answers
+- All enquiries can go to christiaan.pauw@nova.org.za
+- We don't have training materials yet, but please make sure there is an onboarding page - I will still provide more content
+- The exact details of the reputation system are part of the roadmap - make a roadmap page where we can expand on this
+- Disputes or appeals about reputation are also part of the roadmap. Please add "detailed formulation of reputation mechanism", "reputation system beta testing", "Reputation system live" on the roadmap. 
+
 
 ## Methodology & Assurance
 - Which methodologies are ready for publication on the platform, and which are still in peer review?
@@ -30,9 +39,16 @@ The current site reflects the information provided in `referencematerial.md`. To
 - What validation evidence is required before issuing credentials for new methodologies or impact indicators?
 - How should we describe the relationship between verifiable compute workflows and manual validation steps?
 
+
+
 ## Access, Costs & Incentives
+### Questions
 - Are there platform fees, token issuance costs, or evaluator compensation models that we should communicate? If so, how are these structured?
 - Do we offer programmes that support new regions, sectors, or community-led initiatives when they join Independent Impact?
+
+### Answers
+- While we are in testing on the Hedera testnet, no fees apply. When moving to Heera mainnet, Hbar or custom tokens (via HIP 991) will be used on every transaction. Since Hedera is a very efficient network, we aim to keep fees low. 
+
 
 ## Data Stewardship & Legal
 - What personal or organisational data do we collect during onboarding and ongoing participation?
