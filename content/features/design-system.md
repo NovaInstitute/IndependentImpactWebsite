@@ -1,66 +1,40 @@
 ---
-title: "Beautiful Design System"
-description: "Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
+title: "Participation & Governance"
+slug: "participation-governance"
+description: "Independent Impact aligns open participation with rigorous peer review through a reputation-led governance model."
 layout: "feature"
-badge: "Design"
+badge: "Philosophy"
 badgeColor: "#7c3aed"
 features:
-  - title: "Modern UI Components"
-    description: "A complete set of pre-built components designed for SaaS websites. From navigation bars to pricing tables, everything you need is included."
-  - title: "Responsive Design"
-    description: "Every component is fully responsive and tested across all device sizes. Your website will look great on everything from phones to large displays."
-  - title: "Custom Typography"
-    description: "Carefully crafted typography system with perfect vertical rhythm. Easily customize fonts and sizes to match your brand guidelines."
-  - title: "Flexible Layouts"
-    description: "Modular layout system that adapts to your content. Create unique page layouts while maintaining consistent spacing and alignment."
-demo:
-  description: "Explore our comprehensive design system built with TailwindCSS."
-  image: "/images/feature-2.svg"
+  - title: "Transparent participation criteria"
+    description: "Roles for implementers, validators, verifiers, and methodology developers are open to new entrants, with clear requirements based on reputation."
+  - title: "Reputation-backed decision making"
+    description: "Peer evaluation determines which agents and methodologies earn the reputation needed to advance projects through the platform."
+  - title: "Accountable artefacts"
+    description: "The reputations of creators, reviewers, and verifiers are attached to each artefact, giving buyers clarity on who stood behind every claim."
+  - title: "Continuous peer review"
+    description: "Community members can challenge and improve methodologies, credentials, and controls, ensuring the system keeps evolving toward higher quality."
 ---
 
-## Comprehensive Design System
+## Balancing Openness and Quality
 
-Our theme includes a complete design system that makes it easy to create beautiful, consistent interfaces. Built on TailwindCSS, it provides the flexibility to customize every aspect of your design while maintaining a professional look.
+Independent Impact is founded on the ideal of mass participation in generating shared benefits for all. The platform removes barriers for new contributors while ensuring that quality signals guide the most consequential decisions. Every agent and control earns reputation through community assessment, and that reputation determines the responsibilities they can assume.
 
-### Design Components
+### Roles Across the Lifecycle
 
-#### Core Elements
-- Typography system with perfect vertical rhythm
-- Color palette with semantic variables
-- Spacing and sizing scales
-- Grid and layout systems
+- **Implementers** submit projects and carry out interventions, providing the data needed to establish impact.
+- **Validators** review methodologies and project design documents, assessing whether evidence and controls are sufficient.
+- **Verifiers** confirm that reported outcomes align with the agreed methodologies and that data provenance is intact.
+- **Methodology developers** design and iterate on the frameworks others use to measure and assure impact.
 
-#### UI Components
-- Navigation components (headers, footers, menus)
-- Hero sections and feature displays
-- Cards and content containers
-- Forms and input elements
-- Buttons and CTAs
-- Pricing tables
-- Testimonial displays
-- Team member profiles
+### Reputation as a Governance Layer
 
-#### Design Features
+Reputation is the connective tissue that keeps the ecosystem accountable. Contributors gain standing by delivering reliable work, whether through meticulous project documentation or thorough evaluations. Reputations decay or are challenged when contributions fall short, encouraging continual improvement and truth-seeking dialogue.
 
-##### Customization
-- Easy theme customization through TailwindCSS
-- Brand color management
-- Typography customization
-- Spacing system adjustment
-- Component variants
+### Visibility for Buyers and Partners
 
-##### Accessibility
-- WCAG 2.1 compliant components
-- Proper ARIA attributes
-- Keyboard navigation support
-- High contrast mode support
-- Screen reader optimized
+Prospective buyers can inspect not only the impact tokens or verifiable credentials themselves, but also the reputations of the agents involved in creating and validating them. This transparency fosters trust and helps partners decide whether a particular impact claim aligns with their own assurance requirements.
 
-##### Responsive Design
-- Mobile-first approach
-- Breakpoint system
-- Fluid typography
-- Adaptive layouts
-- Touch-friendly interactions
+### Open Questions
 
-Our design system provides the perfect foundation for creating beautiful, accessible, and responsive websites that stand out from the crowd.
+_What thresholds or levels currently gate access to key responsibilities, and how are disputes over reputation resolved?_ Clarifying these processes will help us document onboarding pathways and governance mechanics more completely.

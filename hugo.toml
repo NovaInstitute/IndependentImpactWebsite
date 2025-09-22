@@ -35,16 +35,16 @@ paginatePath = "page"
   [params.cta]
     enable = true
     title = "Independent Impact"
-    description = "A platform for transparently verified impact quantification."
+    description = "A platform for transparent, reputation-led impact accounting."
     gradient_from = "#2563eb"  # Indigo-600
     gradient_to = "#7c3aed"    # Purple-600
     gradient_angle = 30
     [params.cta.primary_button]
-      text = "Participate"
-      url = "/get-started"
+      text = "Partner with us"
+      url = "mailto:info@independentimpact.example"
     [params.cta.secondary_button]
-      text = "Book a call"
-      url = "/demo"
+      text = "Learn about participation"
+      url = "/careers/"
   
   # Social Media Links
   [params.social]
@@ -89,12 +89,12 @@ paginatePath = "page"
       # Sign In button
       [params.header.buttons.signIn]
         text = "Sign in"
-        url = "/signin"
-      
+        url = "#"
+
       # Get Started button
       [params.header.buttons.getStarted]
-        text = "Get Started"
-        url = "/get-started"
+        text = "Participate"
+        url = "/careers/"
 
   # Blog configuration
   [params.blog]
@@ -168,16 +168,17 @@ paginatePath = "page"
 [menu]
   [[menu.main]]
     name = "Features"
+    url = "/features/"
     weight = 1
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Indicator development", url = "/features/indicators/" },
-        { name = "Methodology development", url = "/features/methodologies/" },
-        { name = "Project development", url = "/features/project-development/" }
+        { name = "Platform architecture", url = "/features/platform-architecture/" },
+        { name = "Participation & governance", url = "/features/participation-governance/" },
+        { name = "Impact workflows", url = "/features/impact-workflows/" }
       ]
   [[menu.main]]
-    name = "Pricing"
+    name = "Participation"
     url = "/pricing"
     weight = 2
   [[menu.main]]
@@ -186,26 +187,27 @@ paginatePath = "page"
     weight = 3
   [[menu.main]]
     name = "Organisation"
+    url = "/company/"
     weight = 4
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "About Us", url = "/organisation/" },
-        { name = "Careers", url = "/participation/" }
+        { name = "About", url = "/company/" },
+        { name = "Participate", url = "/careers/" }
       ]
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Performance"
-    url = "/features/performance/"
+    name = "Platform architecture"
+    url = "/features/platform-architecture/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/features/design-system/"
+    name = "Participation & governance"
+    url = "/features/participation-governance/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Developer Experience"
-    url = "/features/developer-experience/"
+    name = "Impact workflows"
+    url = "/features/impact-workflows/"
     weight = 3
 
   # Footer Column 2 Menu
@@ -214,20 +216,20 @@ paginatePath = "page"
     url = "/blog"
     weight = 1
   [[menu.footer_column_2]]
-    name = "About Us"
+    name = "About"
     url = "/company"
     weight = 2
   [[menu.footer_column_2]]
-    name = "Careers"
+    name = "Participate"
     url = "/careers"
     weight = 3
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
-    name = "License"
+    name = "Terms & licensing"
     url = "/license"
     weight = 1
   [[menu.footer_column_3]]
-    name = "Privacy Policy"
+    name = "Data stewardship"
     url = "/privacy"
     weight = 2
