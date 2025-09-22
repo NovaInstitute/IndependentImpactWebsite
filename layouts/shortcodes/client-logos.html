@@ -1,0 +1,15 @@
+{{ $logos := .Page.Params.client_logos }}
+{{ $animate := eq (lower (.Get "animate" | default "")) "true" }}
+{{ if $logos }}
+<section class="py-12">
+  <div class="container">
+    <div class="grid items-center gap-8 md:grid-cols-3 lg:grid-cols-5">
+      {{ range $logos }}
+      <div class="flex items-center justify-center">
+        <img class="h-12 w-auto max-w-[160px] {{ if $animate }}transition transform hover:scale-105 duration-200{{ end }}" src="{{ .logo }}" alt="{{ .name | default "" | plainify }} logo" loading="lazy" />
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

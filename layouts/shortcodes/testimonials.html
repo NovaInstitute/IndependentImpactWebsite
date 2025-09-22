@@ -1,0 +1,37 @@
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $animate := eq (lower (.Get "animate" | default "")) "true" }}
+{{ $background := .Get "background-color" }}
+{{ $testimonials := .Page.Params.testimonials }}
+{{ if $testimonials }}
+<section class="section" {{ with $background }}style="background-color: {{ . }}"{{ end }}>
+  <div class="container space-y-12">
+    <div class="mx-auto max-w-3xl text-center space-y-4">
+      {{ with $title }}
+      <h2 class="text-3xl font-heading font-bold text-gray-900">{{ . }}</h2>
+      {{ end }}
+      {{ with $description }}
+      <p class="text-lg text-gray-600">{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {{ range $testimonial := $testimonials }}
+      <article class="card h-full {{ if $animate }}transition duration-200 hover:-translate-y-1 hover:shadow-lg{{ end }}">
+        <div class="flex flex-col gap-4">
+          <div class="flex items-center gap-4">
+            {{ with $testimonial.avatar }}
+            <img class="h-12 w-12 rounded-full" src="{{ . }}" alt="{{ $testimonial.name | default "" | plainify }} avatar" loading="lazy" />
+            {{ end }}
+            <div>
+              <p class="font-semibold text-gray-900">{{ $testimonial.name }}</p>
+              <p class="text-sm text-gray-500">{{ $testimonial.title }}</p>
+            </div>
+          </div>
+          <p class="text-gray-600">“{{ $testimonial.quote }}”</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

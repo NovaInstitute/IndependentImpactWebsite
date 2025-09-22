@@ -1,0 +1,17 @@
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+<section class="section bg-white">
+  <div class="container space-y-12">
+    <div class="mx-auto max-w-3xl text-center space-y-4">
+      {{ with $title }}
+      <h2 class="text-3xl font-heading font-bold text-gray-900">{{ . }}</h2>
+      {{ end }}
+      {{ with $description }}
+      <p class="text-lg text-gray-600">{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="grid gap-8 lg:grid-cols-3">
+      {{ .Inner | safeHTML }}
+    </div>
+  </div>
+</section>

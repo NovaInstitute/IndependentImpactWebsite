@@ -1,0 +1,52 @@
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $badge := .Get "badge" }}
+{{ $badgeColor := .Get "badgeColor" | default "#2563eb" }}
+{{ $image := .Get "image" }}
+{{ $buttonText := .Get "buttonText" }}
+{{ $buttonLink := .Get "buttonLink" | default "#" }}
+{{ $features := split (.Get "features" | default "") "," }}
+{{ $imagePosition := lower (.Get "imagePosition" | default "right") }}
+{{ $reverse := eq $imagePosition "left" }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "items" (slice) }}
+{{ range $features }}
+  {{ $item := trim . " \t\n\r" }}
+  {{ if $item }}
+    {{ $scratch.Add "items" (slice $item) }}
+  {{ end }}
+{{ end }}
+{{ $items := $scratch.Get "items" }}
+<div class="card h-full">
+  <div class="flex flex-col gap-6 {{ if $reverse }}lg:flex-row-reverse{{ else }}lg:flex-row{{ end }}">
+    <div class="flex-1 space-y-4">
+      {{ with $badge }}
+      <span class="inline-flex items-center rounded-full px-4 py-1 text-sm font-semibold text-white" style="background-color: {{ $badgeColor }}">{{ . }}</span>
+      {{ end }}
+      {{ with $title }}
+      <h3 class="text-2xl font-heading font-bold text-gray-900">{{ . }}</h3>
+      {{ end }}
+      {{ with $description }}
+      <p class="text-gray-600">{{ . }}</p>
+      {{ end }}
+      {{ if gt (len $items) 0 }}
+      <ul class="space-y-2">
+        {{ range $items }}
+        <li class="flex items-start gap-3">
+          <span class="mt-1 h-2 w-2 rounded-full bg-primary-500"></span>
+          <span>{{ . }}</span>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{ with $buttonText }}
+      <a class="btn-secondary inline-flex" href="{{ $buttonLink }}">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ with $image }}
+    <div class="flex-1">
+      <img class="w-full h-full object-contain" src="{{ . }}" alt="{{ $title | default "" | plainify }} illustration" loading="lazy" />
+    </div>
+    {{ end }}
+  </div>
+</div>
