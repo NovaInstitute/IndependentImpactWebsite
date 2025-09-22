@@ -141,6 +141,10 @@
     border: 1px solid var(--border);
   }
 
+  .nav-menu {
+    @apply flex flex-wrap items-center justify-center gap-4 text-sm font-medium text-body-2 rounded-full border border-border bg-surface px-6 py-3 shadow-sm md:justify-start;
+  }
+
   .nav-link {
     @apply font-bold transition duration-200;
     color: var(--text-2);
