@@ -1,9 +1,9 @@
 {{ define "main" }}
   <article class="container prose py-12">
     <header class="mb-8">
-      <h1 class="text-4xl font-heading font-bold text-gray-900">{{ .Title }}</h1>
+      <h1 class="text-4xl font-heading font-bold text-brand-blue-800">{{ .Title }}</h1>
       {{ with .Description }}
-      <p class="mt-2 text-lg text-gray-600">{{ . }}</p>
+      <p class="mt-2 text-lg text-body-2">{{ . }}</p>
       {{ end }}
     </header>
     {{ .Content }}

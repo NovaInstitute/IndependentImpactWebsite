@@ -8,10 +8,10 @@
   <div class="container space-y-12">
     <div class="mx-auto max-w-3xl text-center space-y-4">
       {{ with $title }}
-      <h2 class="text-3xl font-heading font-bold text-gray-900">{{ . }}</h2>
+      <h2 class="text-3xl font-heading font-bold text-brand-blue-800">{{ . }}</h2>
       {{ end }}
       {{ with $description }}
-      <p class="text-lg text-gray-600">{{ . }}</p>
+      <p class="text-lg text-body-2">{{ . }}</p>
       {{ end }}
     </div>
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -23,11 +23,11 @@
             <img class="h-12 w-12 rounded-full" src="{{ . }}" alt="{{ $testimonial.name | default "" | plainify }} avatar" loading="lazy" />
             {{ end }}
             <div>
-              <p class="font-semibold text-gray-900">{{ $testimonial.name }}</p>
-              <p class="text-sm text-gray-500">{{ $testimonial.title }}</p>
+              <p class="font-semibold text-brand-blue-800">{{ $testimonial.name }}</p>
+              <p class="text-sm text-body-2">{{ $testimonial.title }}</p>
             </div>
           </div>
-          <p class="text-gray-600">“{{ $testimonial.quote }}”</p>
+          <p class="text-body-2">“{{ $testimonial.quote }}”</p>
         </div>
       </article>
       {{ end }}

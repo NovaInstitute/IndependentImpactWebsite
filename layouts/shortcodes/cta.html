@@ -2,7 +2,7 @@
 {{ if and $cta ($cta.enable | default true) }}
 <section class="cta-section">
   <div class="container">
-    <div class="cta-gradient rounded-3xl px-8 py-12 text-center text-white" style="--gradient-from: {{ $cta.gradient_from | default "#2563eb" }}; --gradient-to: {{ $cta.gradient_to | default "#7c3aed" }}; --gradient-angle: {{ $cta.gradient_angle | default 45 }};">
+    <div class="cta-gradient rounded-3xl px-8 py-12 text-center text-white" style="--gradient-from: {{ $cta.gradient_from | default "var(--brand-blue-500)" }}; --gradient-to: {{ $cta.gradient_to | default "var(--accent-cyan)" }}; --gradient-angle: {{ $cta.gradient_angle | default 135 }};">
       {{ with $cta.title }}
       <h2 class="text-3xl font-heading font-bold">{{ . }}</h2>
       {{ end }}

@@ -2,17 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --brand-blue-500: #1E88E5;
+  --brand-blue-700: #1976D2;
+  --brand-blue-800: #1565C0;
+  --trust-navy: #0A2240;
+  --verify-green-700: #15803D;
+  --accent-cyan: #06B6D4;
+  --amber-500: #F59E0B;
+  --amber-700: #B45309;
+  --error-600: #DC2626;
+
+  --bg: #FFFFFF;
+  --surface: #F8FAFC;
+  --border: #E2E8F0;
+  --text: #0F172A;
+  --text-2: #334155;
+}
+
+.dark {
+  --bg: #0B1220;
+  --surface: #111827;
+  --border: #1F2937;
+  --text: #F1F5F9;
+  --text-2: #CBD5E1;
+}
+
 @layer base {
   html {
     @apply scroll-smooth;
-  }
-  
-  body {
-    @apply font-sans text-gray-700 antialiased;
+    color-scheme: light dark;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-heading font-bold text-gray-900;
+  body {
+    @apply font-sans antialiased;
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-bold;
+    color: var(--brand-blue-800);
+  }
+
+  a {
+    color: var(--brand-blue-800);
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus-visible {
+    color: var(--brand-blue-500);
+    text-decoration: underline;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--trust-navy);
+    outline-offset: 2px;
+  }
+
+  .dark :focus-visible {
+    outline: 2px solid var(--text);
   }
 }
 
@@ -31,7 +86,11 @@
   }
 
   .cta-gradient {
-    background: linear-gradient(calc(var(--gradient-angle) * 1deg), var(--gradient-from), var(--gradient-to));
+    background: linear-gradient(
+      calc(var(--gradient-angle) * 1deg),
+      var(--gradient-from),
+      var(--gradient-to)
+    );
   }
 
   .btn {
@@ -40,15 +99,31 @@
   }
 
   .btn-primary {
-    @apply btn bg-primary-600 text-white hover:bg-primary-700 hover:scale-105;
+    @apply btn text-white hover:scale-105;
+    background-color: var(--brand-blue-700);
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus-visible {
+    background-color: var(--brand-blue-800);
   }
 
   .btn-secondary {
-    @apply btn bg-secondary-600 text-white hover:bg-secondary-700 hover:scale-105;
+    @apply btn hover:scale-105;
+    background-color: transparent;
+    border: 2px solid var(--brand-blue-500);
+    color: var(--brand-blue-800);
+  }
+
+  .btn-secondary:hover,
+  .btn-secondary:focus-visible {
+    background-color: rgba(30, 136, 229, 0.08);
   }
 
   .btn-outline {
-    @apply btn border-2 border-primary-600 text-primary-600 hover:scale-105;
+    @apply btn hover:scale-105;
+    border: 2px solid var(--brand-blue-700);
+    color: var(--brand-blue-700);
   }
 
   .container {
@@ -60,12 +135,20 @@
   }
 
   .card {
-    @apply bg-white p-6 transition duration-200 hover:shadow-md;
+    @apply p-6 transition duration-200 hover:shadow-md;
     border-radius: 2rem;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
   }
 
   .nav-link {
-    @apply text-gray-600 hover:text-primary-600 font-bold transition duration-200;
+    @apply font-bold transition duration-200;
+    color: var(--text-2);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus-visible {
+    color: var(--brand-blue-500);
   }
 
   .feature-grid {
@@ -74,7 +157,8 @@
 
   /* Blog and Syntax Highlighting Styles */
   .highlight {
-    @apply text-sm font-mono text-gray-200;
+    @apply text-sm font-mono;
+    color: var(--text);
   }
 
   .highlight table {
@@ -86,47 +170,60 @@
   }
 
   .highlight table td:first-child {
-    @apply pr-4 text-right select-none text-gray-500 border-r border-gray-700;
+    @apply pr-4 text-right select-none text-body-2 border-r border-border;
   }
 
   .highlight table td:last-child {
     @apply pl-4 w-full;
   }
 
-  .highlight .k, .highlight .kd {
-    @apply text-purple-400 font-semibold;
+  .highlight .k,
+  .highlight .kd {
+    color: var(--brand-blue-500);
+    font-weight: 600;
   }
 
-  .highlight .nf, .highlight .nx {
-    @apply text-blue-400;
+  .highlight .nf,
+  .highlight .nx {
+    color: var(--brand-blue-800);
   }
 
-  .highlight .s, .highlight .s1, .highlight .s2 {
-    @apply text-green-400;
+  .highlight .s,
+  .highlight .s1,
+  .highlight .s2 {
+    color: var(--verify-green-700);
   }
 
-  .highlight .mi, .highlight .mf {
-    @apply text-orange-400;
+  .highlight .mi,
+  .highlight .mf {
+    color: var(--amber-500);
   }
 
-  .highlight .c, .highlight .c1, .highlight .cm {
-    @apply text-gray-500 italic;
+  .highlight .c,
+  .highlight .c1,
+  .highlight .cm {
+    color: var(--text-2);
+    font-style: italic;
   }
 
   .highlight .o {
-    @apply text-yellow-400;
+    color: var(--accent-cyan);
   }
 
   .highlight .p {
-    @apply text-gray-400;
+    color: var(--text-2);
   }
 
   .prose {
     @apply max-w-none;
   }
 
-  .prose h1, .prose h2, .prose h3, .prose h4 {
-    @apply font-heading font-bold text-gray-900;
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    @apply font-heading font-bold;
+    color: var(--brand-blue-800);
   }
 
   .prose h1 {
@@ -142,14 +239,23 @@
   }
 
   .prose p {
-    @apply text-gray-700 leading-relaxed mb-6;
+    @apply leading-relaxed mb-6;
+    color: var(--text);
   }
 
   .prose a {
-    @apply text-primary-600 hover:text-primary-700 no-underline;
+    color: var(--brand-blue-800);
+    text-decoration: none;
   }
 
-  .prose ul, .prose ol {
+  .prose a:hover,
+  .prose a:focus-visible {
+    color: var(--brand-blue-500);
+    text-decoration: underline;
+  }
+
+  .prose ul,
+  .prose ol {
     @apply my-6 ml-6;
   }
 
@@ -158,7 +264,8 @@
   }
 
   .prose blockquote {
-    @apply border-l-4 border-gray-200 pl-4 italic text-gray-700 my-8;
+    @apply border-l-4 border-border pl-4 italic my-8;
+    color: var(--text);
   }
 
   .prose img {
@@ -166,11 +273,16 @@
   }
 
   .prose code:not(pre code) {
-    @apply bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono;
+    @apply px-1.5 py-0.5 rounded text-sm font-mono;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--brand-blue-800);
   }
 
   .table-of-contents {
-    @apply bg-gray-50 p-6 rounded-lg my-8;
+    @apply p-6 rounded-lg my-8;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
   }
 
   .table-of-contents nav {
@@ -178,7 +290,7 @@
   }
 
   .table-of-contents a {
-    @apply text-gray-700 hover:text-primary-600 no-underline;
+    color: var(--brand-blue-800);
   }
 
   .table-of-contents ul {
