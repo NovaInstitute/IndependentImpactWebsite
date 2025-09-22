@@ -24,6 +24,12 @@ The current site reflects the information provided in `referencematerial.md`. To
 - What reputation thresholds or levels gate responsibilities such as validation, verification, or methodology authorship?
 - How are disputes or appeals about reputation handled within the community governance model?
 
+## Methodology & Assurance
+- Which methodologies are ready for publication on the platform, and which are still in peer review?
+- Do we maintain a roadmap of upcoming ontologies or taxonomies that should align with AIAO?
+- What validation evidence is required before issuing credentials for new methodologies or impact indicators?
+- How should we describe the relationship between verifiable compute workflows and manual validation steps?
+
 ## Access, Costs & Incentives
 - Are there platform fees, token issuance costs, or evaluator compensation models that we should communicate? If so, how are these structured?
 - Do we offer programmes that support new regions, sectors, or community-led initiatives when they join Independent Impact?

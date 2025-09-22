@@ -1,3 +1,24 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Independent Impact"
+
+[menu]
+  [[menu.main]]
+    name = "Impact Indicators & Methods"
+    url = "/impact-indicators-and-methods/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Project Developers"
+    url = "/project-developers/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Validators & Verifiers"
+    url = "/validators-and-verifiers/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Report Impact"
+    url = "/report-impact/"
+    weight = 40
