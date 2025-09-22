@@ -1,0 +1,36 @@
+{{ $headline := .Get "headline" | default (.Page.Title) }}
+{{ $headlineText := $headline | default "" | plainify }}
+{{ $sub := .Get "sub_headline" }}
+{{ $primaryText := .Get "primary_button_text" }}
+{{ $primaryURL := .Get "primary_button_url" | default "#" }}
+{{ $secondaryText := .Get "secondary_button_text" }}
+{{ $secondaryURL := .Get "secondary_button_url" | default "#" }}
+{{ $image := .Get "hero_image" }}
+{{ $gradientFrom := .Get "gradient-from" | default "#eff6ff" }}
+{{ $gradientTo := .Get "gradient-to" | default "#ede9fe" }}
+{{ $gradientAngle := .Get "gradient-angle" | default "135" }}
+<section class="relative overflow-hidden py-20" style="background: linear-gradient({{ $gradientAngle }}deg, {{ $gradientFrom }}, {{ $gradientTo }});">
+  <div class="container grid gap-16 items-center lg:grid-cols-2">
+    <div class="space-y-6 text-center lg:text-left">
+      {{ with $headline }}
+      <h1 class="text-4xl sm:text-5xl font-heading font-bold text-gray-900">{{ . }}</h1>
+      {{ end }}
+      {{ with $sub }}
+      <p class="text-lg text-gray-700 max-w-2xl mx-auto lg:mx-0">{{ . }}</p>
+      {{ end }}
+      <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+        {{ with $primaryText }}
+        <a class="btn-primary" href="{{ $primaryURL }}">{{ . }}</a>
+        {{ end }}
+        {{ with $secondaryText }}
+        <a class="btn-outline" href="{{ $secondaryURL }}">{{ . }}</a>
+        {{ end }}
+      </div>
+    </div>
+    {{ with $image }}
+    <div class="relative">
+      <img class="w-full max-w-xl mx-auto" src="{{ . }}" alt="{{ $headlineText }} illustration" loading="lazy" />
+    </div>
+    {{ end }}
+  </div>
+</section>
