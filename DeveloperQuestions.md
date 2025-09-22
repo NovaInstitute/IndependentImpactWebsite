@@ -32,6 +32,15 @@ The current site reflects the information provided in `referencematerial.md`. To
 - The exact details of the reputation system are part of the roadmap - make a roadmap page where we can expand on this
 - Disputes or appeals about reputation are also part of the roadmap. Please add "detailed formulation of reputation mechanism", "reputation system beta testing", "Reputation system live" on the roadmap. 
 
+
+## Methodology & Assurance
+- Which methodologies are ready for publication on the platform, and which are still in peer review?
+- Do we maintain a roadmap of upcoming ontologies or taxonomies that should align with AIAO?
+- What validation evidence is required before issuing credentials for new methodologies or impact indicators?
+- How should we describe the relationship between verifiable compute workflows and manual validation steps?
+
+
+
 ## Access, Costs & Incentives
 ### Questions
 - Are there platform fees, token issuance costs, or evaluator compensation models that we should communicate? If so, how are these structured?
