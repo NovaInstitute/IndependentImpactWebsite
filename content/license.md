@@ -1,26 +1,13 @@
 ---
-title: "License"
+title: "Terms & Licensing"
 layout: "simple"
 ---
 
-## MIT License
+We have not yet published licensing or terms of use information for Independent Impact. To help stakeholders understand how they can use the platform and its artefacts, we need clarity on several points:
 
-Copyright (c) 2024
+- _What legal entity operates Independent Impact, and under which jurisdiction?_ 
+- _Is platform access governed by service terms, community charters, or open-source licences?_
+- _How are methodology contributions, data submissions, and generated tokens licensed for reuse?_
+- _Do validators, verifiers, or buyers agree to specific codes of conduct or liability limitations?_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Once we receive guidance on these questions we can publish formal documentation that aligns with the platform’s philosophy of openness and accountability.

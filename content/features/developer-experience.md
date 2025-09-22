@@ -1,75 +1,42 @@
 ---
-title: "Developer Experience"
-description: "Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
+title: "Impact Workflows"
+slug: "impact-workflows"
+description: "Independent Impact operationalises transparent workflows for documenting projects, validating methodologies, and issuing verifiable credentials."
 layout: "feature"
-badge: "Development"
+badge: "Workflows"
 badgeColor: "#16a34a"
 features:
-  - title: "Component System"
-    description: "Modular component architecture makes it easy to build and maintain your website. Reuse components across pages while maintaining consistency."
-  - title: "Easy Customization"
-    description: "Clear configuration files and well-organized code make it simple to customize any aspect of your site. No deep Hugo knowledge required."
-  - title: "Clean Code"
-    description: "Well-structured, documented code following best practices. Makes maintenance and updates straightforward for any developer."
-  - title: "Detailed Documentation"
-    description: "Comprehensive documentation covers everything from setup to advanced customization. Includes examples and best practices."
-demo:
-  description: "See how our developer-friendly architecture makes building websites a breeze."
-  image: "/images/feature-3.svg"
+  - title: "PDD validation"
+    description: "Structured submission, peer review, and approval of project design documents ensures projects enter the ecosystem with clear evidence requirements."
+  - title: "Reputation-aware routing"
+    description: "Tasks are assigned to validators and verifiers whose reputation demonstrates the right expertise and reliability."
+  - title: "Verifiable compute"
+    description: "Quantitative assessments leverage Jellyfish to make calculations reproducible and auditable."
+  - title: "Transparent credentials"
+    description: "Outputs are issued as W3C Verifiable Credentials so stakeholders can interrogate provenance and assurance."
 ---
 
-## Built for Developers
+## Operational Flow
 
-Our theme is designed with developers in mind, providing a clean, efficient workflow that makes building websites enjoyable and productive.
+Independent Impact structures the lifecycle of impact claims from initial project conception to tokenisation. Workflows are transparent by default, and each stage leaves an auditable trail linking artefacts, responsible agents, and verification outcomes.
 
-### Development Features
+### Project Design and Submission
 
-#### Project Structure
-- Logical directory organization
-- Clear separation of concerns
-- Modular component architecture
-- Consistent naming conventions
+Implementers prepare project design documents (PDDs) that describe planned interventions, impact pathways, methodologies, and data requirements. These artefacts are stored on IPFS and referenced within the platform so reviewers can trace every assumption and data source.
 
-#### Development Workflow
-- Fast hot reload development server
-- Automatic asset processing
-- Source maps for debugging
-- Build process optimization
+### Peer Validation
 
-#### Component System
+Validators with sufficient reputation review submitted PDDs, assessing whether methodologies align with stated goals and whether proposed controls are adequate. Their evaluations are issued as verifiable credentials, giving downstream users a cryptographically signed record of the decision.
 
-##### Shortcodes
-- Rich set of pre-built shortcodes
-- Easy to create custom shortcodes
-- Documentation for each shortcode
-- Example implementations
+### Execution and Monitoring
 
-##### Partials
-- Reusable partial templates
-- Context-aware components
-- Easy to extend and modify
-- Clear documentation
+As projects proceed, implementers submit monitoring data and supporting evidence. Jellyfish-powered compute pipelines transform these inputs into quantitative impact assessments, generating reproducible outputs that others can inspect.
 
-#### Customization
+### Verification and Tokenisation
 
-##### Configuration
-- Central configuration file
-- Environment variables support
-- Feature flags
-- Easy theme customization
+Verifiers examine the evidence, recompute results when necessary, and confirm that methodologies were followed. Once validations and verifications meet reputation thresholds, impacts can be tokenised via the Hedera Token Service, linking each token to its provenance trail.
 
-##### Styling
-- TailwindCSS integration
-- PostCSS processing
-- Custom CSS support
-- Design token system
+### Future Enhancements
 
-#### Documentation
-- Getting started guide
-- Component documentation
-- Configuration reference
-- Best practices
-- Troubleshooting guide
-- Deployment instructions
-
-Our developer experience focuses on making it easy to build, customize, and maintain your website while following best practices and maintaining clean, efficient code.
+- Methodology development workflows will allow community members to propose, iterate, and approve new methodologies within the same reputation framework.
+- First-mile data collection apps will capture field data directly into the platform, strengthening the integrity of evidence from the outset.

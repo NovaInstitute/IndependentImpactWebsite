@@ -1,52 +1,41 @@
 ---
-title: "Lightning-Fast Performance"
-description: "Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
+title: "Platform Architecture"
+slug: "platform-architecture"
+description: "Independent Impact combines decentralised identity, verifiable data, and distributed compute to make impact accounting trustworthy and auditable."
 layout: "feature"
-badge: "Performance"
+badge: "Technology Stack"
 badgeColor: "#2563eb"
 features:
-  - title: "Sub-second Page Loads"
-    description: "Experience instant page transitions with Hugo's static site generation. Pages load in milliseconds, ensuring visitors stay engaged."
-  - title: "Optimized Assets"
-    description: "Automatically optimize images, CSS, and JavaScript. Reduce file sizes without compromising quality for faster load times."
-  - title: "Minimal JavaScript"
-    description: "Built with minimal JavaScript dependencies. Pages remain fast and functional while keeping the bundle size small."
-  - title: "CDN-Ready Output"
-    description: "Deploy your site to any CDN for global distribution. Static files are optimized for edge caching and maximum performance."
-demo:
-  description: "See how our optimized build process delivers lightning-fast page loads and smooth transitions."
-  image: "/images/feature-1.svg"
+  - title: "Event journaling on Hedera"
+    description: "Every submission, evaluation, and verification step is immutably recorded using the Hedera Consensus Service, providing a tamper-evident timeline of actions."
+  - title: "Verifiable identities and attestations"
+    description: "W3C DIDs anchor agent identities while W3C Verifiable Credentials encode attestations that buyers and peers can independently verify."
+  - title: "Immutable artefact storage"
+    description: "Project documentation and evidentiary artefacts are stored on IPFS, ensuring they remain accessible and provably unaltered."
+  - title: "Reputation-aware tokenisation"
+    description: "The Hedera Token Service allows verified outcomes to be tokenised with clear links to the agents and controls responsible for their quality."
 ---
 
-## Built for Speed
+## Architectural Principles
 
-Our theme is engineered from the ground up with performance in mind. By leveraging Hugo's powerful static site generation and combining it with modern optimization techniques, we deliver websites that load instantly and run smoothly.
+Independent Impact implements technologies that reinforce transparency and accountability at every layer of the impact lifecycle. The stack is intentionally modular so the platform can incorporate new methodologies, data sources, and assurance requirements without sacrificing integrity.
 
-### Performance Metrics
+### Hedera Consensus Service
 
-- **Build Time**: Less than 1 second for most sites
-- **Page Load Time**: Under 500ms first contentful paint
-- **Time to Interactive**: Under 1.5 seconds
-- **Google Lighthouse Score**: 95+ on all metrics
+Hedera Consensus Service captures an immutable, ordered log of platform events. This journal confirms when artefacts were submitted, who evaluated them, and what decisions were taken. It underpins dispute resolution by providing a shared timeline of actions.
 
-### Optimization Features
+### Decentralised Identifiers and Verifiable Credentials
 
-#### Asset Optimization
-- Automatic image optimization and WebP conversion
-- CSS minification and purging of unused styles
-- JavaScript bundling and tree-shaking
-- Lazy loading of images and components
+Participants manage verifiable digital identities using W3C Decentralised Identifiers. Evaluations, validations, and credentials issued through the platform are represented as W3C Verifiable Credentials, so any relying party can independently inspect provenance and assurance.
 
-#### Caching Strategy
-- Efficient browser caching with proper headers
-- Static asset fingerprinting
-- Pre-rendered HTML for instant loads
-- Service worker for offline capabilities
+### IPFS and Fluree for Data Integrity
 
-#### CDN Integration
-- Built for global distribution
-- Edge caching ready
-- Automatic cache invalidation
-- Geographic redundancy
+Artefacts associated with impact claims are pinned to IPFS, giving each document a content-derived address that proves its integrity. Fluree provides a cryptographically secured, time-travelable semantic database, allowing users to query current and historical states of projects, agents, and methodologies.
 
-Our performance-first approach ensures your website not only looks great but delivers an exceptional user experience through blazing-fast load times and smooth interactions.
+### Verifiable Compute with Jellyfish
+
+Quantitative assessments often rely on complex calculations. Jellyfish executes these computations in a verifiable manner, producing reproducible outputs with clear provenance of the data and logic used.
+
+### Tokenisation Pathways
+
+Once an impact claim has passed through peer review and verification, it can be tokenised via the Hedera Token Service. Tokenisation links the reputation of creators, validators, and verifiers to the resulting assets, giving buyers confidence in both the process and its outcomes.
