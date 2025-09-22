@@ -41,3 +41,7 @@ The compiled site is written to the `public/` directory.
 - `content/` – Markdown content for each page.
 - `assets/css/main.css` – Tailwind entrypoint that is compiled into `static/css/style.css`.
 - `themes/` – Hugo theme files.
+
+## Color system
+
+The site palette is defined through CSS variables and Tailwind aliases in `assets/css/main.css` and `tailwind.config.js`, following the [Independent Impact colour specification](References/independent-impact-color-spec.md). Update those token files when adjusting colours so that components continue to consume the shared design system.

@@ -6,17 +6,17 @@
 {{ $secondaryText := .Get "secondary_button_text" }}
 {{ $secondaryURL := .Get "secondary_button_url" | default "#" }}
 {{ $image := .Get "hero_image" }}
-{{ $gradientFrom := .Get "gradient-from" | default "#eff6ff" }}
-{{ $gradientTo := .Get "gradient-to" | default "#ede9fe" }}
+{{ $gradientFrom := .Get "gradient-from" | default "var(--brand-blue-500)" }}
+{{ $gradientTo := .Get "gradient-to" | default "var(--accent-cyan)" }}
 {{ $gradientAngle := .Get "gradient-angle" | default "135" }}
 <section class="relative overflow-hidden py-20" style="background: linear-gradient({{ $gradientAngle }}deg, {{ $gradientFrom }}, {{ $gradientTo }});">
   <div class="container grid gap-16 items-center lg:grid-cols-2">
     <div class="space-y-6 text-center lg:text-left">
       {{ with $headline }}
-      <h1 class="text-4xl sm:text-5xl font-heading font-bold text-gray-900">{{ . }}</h1>
+      <h1 class="text-4xl sm:text-5xl font-heading font-bold text-brand-blue-800">{{ . }}</h1>
       {{ end }}
       {{ with $sub }}
-      <p class="text-lg text-gray-700 max-w-2xl mx-auto lg:mx-0">{{ . }}</p>
+      <p class="text-lg text-body max-w-2xl mx-auto lg:mx-0">{{ . }}</p>
       {{ end }}
       <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
         {{ with $primaryText }}
