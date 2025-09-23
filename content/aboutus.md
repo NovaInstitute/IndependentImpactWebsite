@@ -48,6 +48,8 @@ This methodology demonstrates how rigorous methodologies can be executed within 
 
 The  extends the platform beyond mitigation use cases. A worked example with real project data is available in the [Adaptation Methodology reference](/References/Methodology.pdf).
 
+- **Publication of AIAO** – formal release of the ontology to the wider community in September 2025, establishing shared language for anthropogenic impact.
+
 ## Team
 
 The core functionality of Independent Impact is being built by a team from the Nova Institute, with support from a independent collaborators. As the platform matures and the reputation system becomes active in different parts of the platform, we will explore with more decentralised governance models. 
@@ -102,6 +104,3 @@ The core functionality of Independent Impact is being built by a team from the N
     </div>
 {{< /section-container >}}
 
-
-
-- **Publication of AIAO** – formal release of the ontology to the wider community in September 2025, establishing shared language for anthropogenic impact.
