@@ -10,7 +10,7 @@ features:
     description: "Structured submission, peer review, and approval of project design documents ensures projects enter the ecosystem with clear evidence requirements."
   - title: "Reputation-aware routing"
     description: "Tasks are assigned to validators and verifiers whose reputation demonstrates the right expertise and reliability."
-   - title: "Field data collection"
+  - title: "Field data collection"
     description: "Individuals close to project sites earn income by capturing first-mile evidence (e.g. photographs, site observations), with deliverables verified on-chain."
   - title: "Verifiable compute"
     description: "Quantitative assessments leverage Jellyfish to make calculations reproducible and auditable."
