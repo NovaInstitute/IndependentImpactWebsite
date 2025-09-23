@@ -17,7 +17,7 @@ That is why we are building Independent Impact.
 
 ## The Nova Institute's Impact Journey
 
-Independent Impact is an initiative of the Nova Institute, an independent not for profit company based in South Africa Wwith a track record spanning three decades.  Nova's vision is the well-being of households, especially low-income households, in Southern Africa. Nova works in a transdisciplinary way with a broad group of stakeholders including, households, community structures, governments, NGOs, and businesses to develop and implement practical solutions to improve quality of life.
+Independent Impact is an initiative of the Nova Institute, an independent not for profit company based in South Africa with a track record spanning three decades.  Nova's vision is the well-being of households, especially low-income households, in Southern Africa. Nova works in a transdisciplinary way with a broad group of stakeholders including, households, community structures, governments, NGOs, and businesses to develop and implement practical solutions to improve quality of life.
 
 Impact quantification has been a core part of Nova's work since its inception. Nova has pioneered methodologies for quantifying the impacts of household interventions on greenhouse gas emission, air pollution exposure and quality of live.
 
