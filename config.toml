@@ -9,6 +9,11 @@ title = "Independent Impact"
     weight = 10
 
   [[menu.main]]
+    name = "Features"
+    url = "/features/"
+    weight = 15
+
+  [[menu.main]]
     name = "Project Developers"
     url = "/project-developers/"
     weight = 20
