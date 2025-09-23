@@ -51,6 +51,8 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< feature
     title="Integration with Hedera Consensus Service: DONE"
+    badge="Completed"
+    badgeColor="var(--verify-green-700)"
     description="The Hedera Consensus Service (HCS) is at the core of everything that happens on Independent Impacts. All significant events on Independent Impacts is captured on HCS."
     features="User registrations, Project submissions, Validation & Verification, Credential issuances, Reputation updates"
     imagePosition="right"
@@ -58,11 +60,30 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< feature
     title="User registration and identity: DONE"
+    badge="Completed"
+    badgeColor="var(--verify-green-700)"
     description="Basic functionality for registering users and linking their Decentralised Identifiers (DIDs) to their accounts."
     features="Standards body, Project developer, Validator, Verifier"
     imagePosition="right"
 >}}
 
+{{< feature
+    title="Project Design Document (PDD) creation: DONE"
+    badge="Completed"
+    badgeColor="var(--verify-green-700)"
+    description="Project developers can create and submit PDDs for peer validation."
+    features="Complete generic PDD template"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Project Design Document (PDD) validation: DONE"
+    badge="Completed"
+    badgeColor="var(--verify-green-700)"
+    description="PDD validation workflow for validator and project developer."
+    features="Paragraph-level review and approval, Corrective action requests and resolution, Forward action requests, Final approval and projecy registration"
+    imagePosition="right"
+>}}
 
 {{< /features-section >}}
 
