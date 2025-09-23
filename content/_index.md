@@ -50,45 +50,45 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 >}}
 
 {{< feature
-    title="Integration with Hedera Consensus Service: DONE"
+    title="Integration with Hedera Consensus Service"
     badge="Completed"
-    badgeColor="var(--verify-green-700)"
+    badgeColor="#25eb85ff"
     description="The Hedera Consensus Service (HCS) is at the core of everything that happens on Independent Impacts. All significant events on Independent Impacts is captured on HCS."
     features="User registrations, Project submissions, Validation & Verification, Credential issuances, Reputation updates"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="User registration and identity: DONE"
+    title="User registration and identity"
     badge="Completed"
-    badgeColor="var(--verify-green-700)"
+    badgeColor="#25eb85ff"
     description="Basic functionality for registering users and linking their Decentralised Identifiers (DIDs) to their accounts."
     features="Standards body, Project developer, Validator, Verifier"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Project Design Document (PDD) creation: DONE"
+    title="Project Design Document (PDD) creation"
     badge="Completed"
-    badgeColor="var(--verify-green-700)"
+    badgeColor="#25eb85ff"
     description="Project developers can create and submit PDDs for peer validation."
     features="Complete generic PDD template"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Project Design Document (PDD) validation: DONE"
+    title="Project Design Document (PDD) validation"
     badge="Completed"
-    badgeColor="var(--verify-green-700)"
+    badgeColor="#25eb85ff"
     description="PDD validation workflow for validator and project developer."
     features="Paragraph-level review and approval, Corrective action requests and resolution, Forward action requests, Final approval and projecy registration"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Reputation system: IN PROGRESS"
+    title="Reputation system"
     badge="In Progress"
-    badgeColor="var(--amber-500)"
+    badgeColor="#eb9525ff"
     description="Reputation system that tracks and displays reputation scores for all participants."
     features="Indicators, Methods, Project developers, Project participants, Validators & verifiers, Standards bodies, Public display of reputation scores"
     imagePosition="right"
@@ -98,7 +98,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 {{< feature
     title="First mile data collection tools: IN PROGRESS"
     badge="In Progress"
-    badgeColor="var(--amber-500)"
+    badgeColor="#eb9525ff"
     description="Create tools for collecting verifiable data from the field"
     features="Survey CTO plugin, Mobile app toolkit"
     imagePosition="right"
@@ -107,7 +107,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 {{< feature
     title="AI-powered impact browser: IN PROGRESS"
     badge="In Progress"
-    badgeColor="var(--amber-500)"
+    badgeColor="#eb9525ff"
     description="AI tools to help users explore and understand impact data"
     features="Natural language queries, Contextual explanations, Query generation"
     imagePosition="right"
@@ -116,7 +116,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 {{< feature
     title="Indicators and metrics library: Planned"
     badge="Planned"
-    badgeColor="var(--brand-blue-500)"
+    badgeColor="#5d25ebff"
     description="A library of impact indicators and metrics"
     features="Standardised impact indicator format, Standardised impact metrics format, Comment and finalisation process, Registry of finalised indicators and metrics, Guide for new indicators and metrics"
     imagePosition="right"
