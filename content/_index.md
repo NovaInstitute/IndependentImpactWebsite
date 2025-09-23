@@ -85,6 +85,44 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     imagePosition="right"
 >}}
 
+{{< feature
+    title="Reputation system: IN PROGRESS"
+    badge="In Progress"
+    badgeColor="var(--amber-500)"
+    description="Reputation system that tracks and displays reputation scores for all participants."
+    features="Indicators, Methods, Project developers, Project participants, Validators & verifiers, Standards bodies, Public display of reputation scores"
+    imagePosition="right"
+>}}
+
+
+{{< feature
+    title="First mile data collection tools: IN PROGRESS"
+    badge="In Progress"
+    badgeColor="var(--amber-500)"
+    description="Create tools for collecting verifiable data from the field"
+    features="Survey CTO plugin, Mobile app toolkit"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="AI-powered impact browser: IN PROGRESS"
+    badge="In Progress"
+    badgeColor="var(--amber-500)"
+    description="AI tools to help users explore and understand impact data"
+    features="Natural language queries, Contextual explanations, Query generation"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Indicators and metrics library: Planned"
+    badge="Planned"
+    badgeColor="var(--brand-blue-500)"
+    description="A library of impact indicators and metrics"
+    features="Standardised impact indicator format, Standardised impact metrics format, Comment and finalisation process, Registry of finalised indicators and metrics, Guide for new indicators and metrics"
+    imagePosition="right"
+>}}
+
+
 {{< /features-section >}}
 
 
