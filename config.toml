@@ -27,3 +27,8 @@ title = "Independent Impact"
     name = "Report Impact"
     url = "/report-impact/"
     weight = 40
+
+ [[menu.main]]
+    name = "About us"
+    url = "/aboutus/"
+    weight = 20

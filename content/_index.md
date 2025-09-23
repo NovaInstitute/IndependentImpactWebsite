@@ -127,12 +127,29 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     badge="Planned"
     badgeColor="#5d25ebff"
     description="A library of impact methodologies by indicator"
-    features="Standardised mthodology format, Comment and finalisation process, Registry of finalised methodologies, Portal and tools and methodology development"
+    features="Standardised methodology format, Comment and finalisation process, Registry of finalised methodologies, Portal and tools and methodology development"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Rapid implementation toolkit"
+    badge="Planned"
+    badgeColor="#5d25ebff"
+    description="Make community-based projects implementable with minimal technical inputs. Pre-packaged implementation monitoring and impact monitoring tools so community-level projects can get started quickly"
+    features="Integrate methodologies with data collection and reporting tools, Training materials and support, Implementation tracking dashboard"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Public reporting platform"
+    badge="Planned"
+    badgeColor="#5d25ebff"
+    description="A public platform for exploring and reporting achieved verified impacts"
+    features="Search and filter by project / indicator / metric / geography etc., Project and portfolio level summaries, Downloadable reports"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
-
 
 {{< features-section
     title="Technical Architecture"
@@ -209,11 +226,3 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 - **Reputation ecosystem expansion** – deeper incentives and transparency for how agents earn, lose, and apply reputation across roles.
 - **First-mile data collection** – field applications that feed trustworthy, verifiable data directly into the Independent Impact ecosystem.
 
-{{< cta
-    title="Help shape Independent Impact"
-    description="We are building a community that proves human impact with openness, rigour, and verifiable technology."
-    primary_button_text="Partner with us"
-    primary_button_url="mailto:info@independentimpact.example"
-    secondary_button_text="Learn about participation"
-    secondary_button_url="/company/"
->}}
