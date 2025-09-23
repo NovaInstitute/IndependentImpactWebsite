@@ -46,7 +46,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< features-section
     title="Roadmap"
-    description="Independent Impact is under active development. We have built core capabilities and are expanding the platform to support a wider range of methodologies, roles, and use cases and build a community of impact creators."
+    description="Independent Impact is under active development. We have built core capabilities and are expanding the platform to with additional features to support a indicator and methodology development build a community of impact creators."
 >}}
 
 {{< feature
@@ -96,7 +96,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 
 {{< feature
-    title="First mile data collection tools: IN PROGRESS"
+    title="First mile data collection tools"
     badge="In Progress"
     badgeColor="#eb9525ff"
     description="Create tools for collecting verifiable data from the field"
@@ -105,7 +105,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 >}}
 
 {{< feature
-    title="AI-powered impact browser: IN PROGRESS"
+    title="AI-powered impact browser"
     badge="In Progress"
     badgeColor="#eb9525ff"
     description="AI tools to help users explore and understand impact data"
@@ -114,14 +114,22 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 >}}
 
 {{< feature
-    title="Indicators and metrics library: Planned"
+    title="Indicators and metrics library"
     badge="Planned"
     badgeColor="#5d25ebff"
     description="A library of impact indicators and metrics"
-    features="Standardised impact indicator format, Standardised impact metrics format, Comment and finalisation process, Registry of finalised indicators and metrics, Guide for new indicators and metrics"
+    features="Standardised impact indicator format, Standardised impact metrics format, Comment and finalisation process, Registry of finalised indicators and metrics, Portal and tools for indicator and metric development"
     imagePosition="right"
 >}}
 
+{{< feature
+    title="Impact methodologies library"
+    badge="Planned"
+    badgeColor="#5d25ebff"
+    description="A library of impact methodologies by indicator"
+    features="Standardised mthodology format, Comment and finalisation process, Registry of finalised methodologies, Portal and tools and methodology development"
+    imagePosition="right"
+>}}
 
 {{< /features-section >}}
 
