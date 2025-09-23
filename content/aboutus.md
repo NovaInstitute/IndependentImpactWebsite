@@ -21,34 +21,9 @@ Independent Impact is an initiative of the Nova Institute, an independent not fo
 
 Impact quantification has been a core part of Nova's work since its inception. Nova has pioneered methodologies for quantifying the impacts of household interventions on greenhouse gas emission, air pollution exposure and quality of live.
 
-### History
-
-Independent Impact grows from a decade of experimentation in verifiable impact accounting. Highlights include:
-
-#### Aartum Whitepaper
-The [Aartum Whitepaper](https://aartum.io/pdf/aartum_programme_whitepaper_ver5) articulated the vision that unique cryptographic representations of verified communal benefits could function as symbols of value, while calling out veracity as the central challenge for blockchain-based impact ecosystems.
-
-#### AIAO Ontology
-
-The *Antropogenic Impact Accounting Ontology* (AIAO) resulted from collaborative work in the Hyperledger Climate Action and Accounting SIG to define a foundational ontology for anthropogenic impact accounting, enabling comparison across methodologies and metrics. The Standards Working Group of the Linux Foundation Decentralized Trust continues to steward four related ontologies:
-
-- [Antropogenic Impact Accounting Ontology](https://w3id.org/aiao) 
-- [Impact Ontology](https://w3id.org/impactont) 
-- [Claim Ontology](https://w3id.org/claimont) 
-- [Information Communication Ontology](https://w3id.org/infocomm) 
-
-These ontologies provide the formal basis for Independent Impact an make it possible to do imopact accounting across different impacts and domains in a consistent manner.
-
-#### Guardian cookstove methodology
-
-This methodology demonstrates how rigorous methodologies can be executed within open verification workflows. Explore the methodology in practice through our [cookstove case study video](https://www.youtube.com/watch?v=BQRoSuIp5UE&t=81s). Our exeprience 
+Independent Impact grows from a decade of experimentation in verifiable impact accounting. See below for history.
 
 
-#### Adaptation methodology
-
-The  extends the platform beyond mitigation use cases. A worked example with real project data is available in the [Adaptation Methodology reference](/References/Methodology.pdf).
-
-- **Publication of AIAO** – formal release of the ontology to the wider community in September 2025, establishing shared language for anthropogenic impact.
 
 ## Team
 
@@ -104,3 +79,32 @@ The core functionality of Independent Impact is being built by a team from the N
     </div>
 {{< /section-container >}}
 
+
+## History
+
+Independent Impact grows from a decade of experimentation in verifiable impact accounting. Highlights include:
+
+### Aartum Whitepaper
+The [Aartum Whitepaper](https://aartum.io/pdf/aartum_programme_whitepaper_ver5) articulated the vision that unique cryptographic representations of verified communal benefits could function as symbols of value, while calling out veracity as the central challenge for blockchain-based impact ecosystems.
+
+### AIAO Ontology
+
+The *Antropogenic Impact Accounting Ontology* (AIAO) resulted from collaborative work in the Hyperledger Climate Action and Accounting SIG to define a foundational ontology for anthropogenic impact accounting, enabling comparison across methodologies and metrics. The Standards Working Group of the Linux Foundation Decentralized Trust continues to steward four related ontologies:
+
+- [Antropogenic Impact Accounting Ontology](https://w3id.org/aiao) 
+- [Impact Ontology](https://w3id.org/impactont) 
+- [Claim Ontology](https://w3id.org/claimont) 
+- [Information Communication Ontology](https://w3id.org/infocomm) 
+
+These ontologies provide the formal basis for Independent Impact an make it possible to do imopact accounting across different impacts and domains in a consistent manner.
+
+### Guardian cookstove methodology
+
+This methodology demonstrates how rigorous methodologies can be executed within open verification workflows. Explore the methodology in practice through our [cookstove case study video](https://www.youtube.com/watch?v=BQRoSuIp5UE&t=81s). Our exeprience 
+
+
+### Adaptation methodology
+
+The  extends the platform beyond mitigation use cases. A worked example with real project data is available in the [Adaptation Methodology reference](/References/Methodology.pdf).
+
+- **Publication of AIAO** – formal release of the ontology to the wider community in September 2025, establishing shared language for anthropogenic impact.
