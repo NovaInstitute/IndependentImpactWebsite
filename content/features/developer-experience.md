@@ -10,6 +10,8 @@ features:
     description: "Structured submission, peer review, and approval of project design documents ensures projects enter the ecosystem with clear evidence requirements."
   - title: "Reputation-aware routing"
     description: "Tasks are assigned to validators and verifiers whose reputation demonstrates the right expertise and reliability."
+ - title: "Field data collection"
+    description: "Individuals close to project sites can earn income by capturing first-mile evidence (e.g. photographs, site observations), with deliverables verified on-chain."
   - title: "Verifiable compute"
     description: "Quantitative assessments leverage Jellyfish to make calculations reproducible and auditable."
   - title: "Transparent credentials"
@@ -31,6 +33,10 @@ Validators with sufficient reputation review submitted PDDs, assessing whether m
 ### Execution and Monitoring
 
 As projects proceed, implementers submit monitoring data and supporting evidence. Jellyfish-powered compute pipelines transform these inputs into quantitative impact assessments, generating reproducible outputs that others can inspect.
+
+### Field Data Collection
+
+Individuals based near implementation sites capture first-mile evidence such as photos, logs, or site observations. Each deliverable is submitted into the platform, providing verifiable, time-stamped data while also creating an income-earning opportunity at the local level.
 
 ### Verification and Tokenisation
 
