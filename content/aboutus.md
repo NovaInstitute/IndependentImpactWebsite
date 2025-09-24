@@ -28,12 +28,14 @@ The core functionality of Independent Impact is being built as by a team from th
                 image="/images/company/cjpx.jpg"
                 linkedin="#"
             >}}
+
             {{< team-member 
                 name="Alex Howard"
                 title="Independent developer & Data Engineer, Jellyfish Technologies"
                 image="/images/company/AlexIvanHoward.jpeg"
                 linkedin="#"
             >}}
+
             {{< team-member 
                 name="Tshepo Sotiya"
                 title="Software Developer, Nova Institute"
@@ -82,7 +84,7 @@ The *Antropogenic Impact Accounting Ontology* (AIAO) resulted from collaborative
 - [Claim Ontology](https://w3id.org/claimont) 
 - [Information Communication Ontology](https://w3id.org/infocomm) 
 
-These ontologies provide the formal basis for Independent Impact an make it possible to do imopact accounting across different impacts and domains in a consistent manner.
+These ontologies provide the formal basis for Independent Impact an make it possible to do impact accounting across different impacts and domains in a consistent manner.
 
 ### Guardian cookstove methodology
 
