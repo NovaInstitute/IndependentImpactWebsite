@@ -1,20 +1,33 @@
 ---
 title: "About Independent Impact"
 layout: "company"
-description: "Learn about our history and team"
+description: "What makes us tick"
 ---
 
-# About Us
+# Our Story
 
-## Initiative
+# Why Independent Impact
+Traditional impact reporting and verification systems are slow, expensive, and monopolised, placing heavy financial and technical barriers in front of smaller or locally rooted initiatives. Verifiers often lack local knowledge, and methodologies can be limited and misaligned with the real issues. The result is a system that rewards scale over integrity, privileges middle-men over households, and leaves impact claims difficult to compare, trust, or verify.
 
-Independent Impact is an initiative of the Nova Institute, an independent not for profit company founded in 1994 and based in South Africa. Nova's vision is the well-being of households, especially low-income households, in Southern Africa. Nova works in a transdisciplinary way with a broad group of stakeholders including, households, community structures, governments, NGOs, and businesses to develop and implement practical solutions to improve quality of life.
+Independent Impact turns this model on its head. Creating impact is hard enough without having to jump through endless hoops to prove it. Verification should enable changemakers, not stifle them. It should ensure that investments reach the ground where they matter most, and help those driving change achieve their aims.
+
+We believe in community. A reputation-based system, built on the expertise of practitioners who understand local contexts, can systematically and reliably validate and verify impact. We believe this can be done using technology that simplifies the process, strengthens transparency, and builds lasting trust. 
+
+That is why we are building Independent Impact.
+
+## The Nova Institute's Impact Journey
+
+Independent Impact is an initiative of the Nova Institute, an independent not for profit company based in South Africa with a track record spanning three decades.  Nova's vision is the well-being of households, especially low-income households, in Southern Africa. Nova works in a transdisciplinary way with a broad group of stakeholders including, households, community structures, governments, NGOs, and businesses to develop and implement practical solutions to improve quality of life.
 
 Impact quantification has been a core part of Nova's work since its inception. Nova has pioneered methodologies for quantifying the impacts of household interventions on greenhouse gas emission, air pollution exposure and quality of live.
 
+Independent Impact grows from a decade of experimentation in verifiable impact accounting. See below for history.
+
+
+
 ## Team
 
-The core functionality of Independent Impact is being built as by a team from the Nova Institute, with support from a independent collaborators. As the platform matures and the reputation system becomes active in different parts of the platform, we will explore with more decentralised governance models. 
+The core functionality of Independent Impact is being built by a team from the Nova Institute, with support from a independent collaborators. As the platform matures and the reputation system becomes active in different parts of the platform, we will explore with more decentralised governance models. 
 
 
 
@@ -67,6 +80,7 @@ The core functionality of Independent Impact is being built as by a team from th
         </div>
     </div>
 {{< /section-container >}}
+
 
 ## History
 
