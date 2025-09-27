@@ -10,7 +10,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     primary_button_url="/company/"
     secondary_button_text="See the architecture"
     secondary_button_url="/features/platform-architecture/"
-    hero_image="/images/watercliff.jpg"
+    hero_image="/images/lighthouse.jpg"
     gradient-from="#e0f2fe"
     gradient-to="#ede9fe"
     gradient-angle="160"
