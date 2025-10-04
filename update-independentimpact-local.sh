@@ -71,11 +71,15 @@ HUGO_ARGS=( )
 [[ -s "$REPO_DIR/public/index.html" ]] || { echo "Build missing public/index.html" >&2; exit 1; }
 
 if [[ "$RUN_SERVER" == "true" ]]; then
-  need python3
-  log "Serving public/ via python http.server at http://$HTTP_SERVER_BIND:$SERVER_PORT"
+  log "Starting Hugo server at http://$HTTP_SERVER_BIND:$SERVER_PORT"
   log "Press Ctrl+C to stop."
-  cd "$REPO_DIR/public"
-  python3 -m http.server "$SERVER_PORT" --bind "$HTTP_SERVER_BIND"
+
+  HUGO_SERVER_ARGS=( server --bind "$HTTP_SERVER_BIND" --port "$SERVER_PORT" )
+  HUGO_SERVER_ARGS+=( --baseURL "http://$HTTP_SERVER_BIND:$SERVER_PORT/" )
+  HUGO_SERVER_ARGS+=( --renderToDisk )
+  [[ "$RUN_MINIFY" == "true" ]] && HUGO_SERVER_ARGS+=( --minify )
+
+  (cd "$REPO_DIR" && HUGO_ENV="$HUGO_ENVIRONMENT" hugo "${HUGO_SERVER_ARGS[@]}")
 else
   log "Skipping local server (RUN_SERVER=false)."
 fi
