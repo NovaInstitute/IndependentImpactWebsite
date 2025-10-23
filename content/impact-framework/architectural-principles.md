@@ -1,10 +1,12 @@
 ---
-title: "Participation & Governance"
-slug: "participation-governance"
-description: "Independent Impact aligns open participation with rigorous peer review through a reputation-led governance model."
+title: "Architectural Principles"
+slug: "architectural-principles"
+description: "Independent Impact balances openness with rigour through reputation-led governance, transparent artefacts, and accountable participation."
 layout: "feature"
 badge: "Philosophy"
 badgeColor: "#7c3aed"
+aliases:
+  - /features/participation-governance/
 features:
   - title: "Transparent participation criteria"
     description: "Roles for implementers, validators, verifiers, and methodology developers are open to new entrants, with clear requirements based on reputation."
@@ -18,7 +20,7 @@ features:
 
 ## Balancing Openness and Quality
 
-Independent Impact is founded on the ideal of mass participation in generating shared benefits for all. The platform removes barriers for new contributors while ensuring that quality signals guide the most consequential decisions. Every agent and control earns reputation through community assessment, and that reputation determines the responsibilities they can assume.
+Independent Impact is founded on the ideal of mass participation in generating shared benefits for all. The platform removes barriers for new contributors while ensuring that quality signals guide the most consequential decisions. Every agent and control earns reputation through community assessment, and that reputation determines the responsibilities they can assume. These principles inform both the software architecture and the governance model that run the platform.
 
 ### Roles Across the Lifecycle
 

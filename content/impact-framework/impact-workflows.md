@@ -5,6 +5,8 @@ description: "Independent Impact operationalises transparent workflows for docum
 layout: "feature"
 badge: "Workflows"
 badgeColor: "#16a34a"
+aliases:
+  - /features/impact-workflows/
 features:
   - title: "PDD validation"
     description: "Structured submission, peer review, and approval of project design documents ensures projects enter the ecosystem with clear evidence requirements."

@@ -1,7 +1,8 @@
----
-title: "Validators & Verifiers"
+title: "Peer Validators"
 layout: "simple"
-description: "Guidance for independent validators and verifiers who safeguard impact claims on the platform."
+description: "Guidance for independent validators who safeguard impact claims on the platform."
+aliases:
+  - /validators-and-verifiers/
 ---
 
 ## Upholding assurance
@@ -31,4 +32,4 @@ Independent Impact is curating a directory of domain experts who can support new
 - Compensation models or cooperative structures that help verifiers remain independent.
 - How disputes or appeals should be escalated when reviewers reach different conclusions.
 
-Interested in joining the network? [Report your interest](/report-impact/) and we will follow up with onboarding resources.
+Interested in joining the network? [Let us know](/contact/how-to-engage/) and we will follow up with onboarding resources.

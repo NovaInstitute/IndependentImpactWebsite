@@ -7,9 +7,9 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     headline="Independent Impact"
     sub_headline="A radically open platform for reporting, quantifying, and verifying human impact with transparency, community oversight, and verifiable technology."
     primary_button_text="Explore our philosophy"
-    primary_button_url="/company/"
+    primary_button_url="/our-story/why-independent-impact/"
     secondary_button_text="See the architecture"
-    secondary_button_url="/features/platform-architecture/"
+    secondary_button_url="/impact-framework/technical-architecture/"
     hero_image="/images/lighthouse.JPG"
     gradient-from="#e0f2fe"
     gradient-to="#ede9fe"
@@ -40,6 +40,31 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     description="Proven distributed technologies protect artefacts and transactions while making every action auditable. Users can interrogate projects, credentials, and impact claims in depth."
     features="Content-addressed artefact storage,Distributed ledger journaling,Queryable history of actions and controls"
     imagePosition="right"
+>}}
+
+{{< /features-section >}}
+
+{{< features-section
+    title="How it works"
+    description="Independent Impact links transparent project documentation with peer validation and verifiable credentials."
+>}}
+
+{{< feature
+    title="Document your project"
+    description="Capture intentions, safeguards, and evidence using shared templates so peers can interrogate every claim."
+    features="Project design documents,Immutable artefact storage,HCS event journaling"
+>}}
+
+{{< feature
+    title="Earn peer validation"
+    description="Route reviews to validators and verifiers whose reputation matches the assurance level you need."
+    features="Reputation-aware assignments,Paragraph-level feedback,Cryptographically signed attestations"
+>}}
+
+{{< feature
+    title="Issue verifiable outcomes"
+    description="Publish transparent credentials and tokens that downstream partners can trust and audit."
+    features="W3C verifiable credentials,Jellyfish-powered recomputation,Hedera Token Service integration"
 >}}
 
 {{< /features-section >}}
@@ -225,4 +250,3 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 - **Methodology development workflow** – collaborative tools for designing, reviewing, and approving new methodologies within the reputation system.
 - **Reputation ecosystem expansion** – deeper incentives and transparency for how agents earn, lose, and apply reputation across roles.
 - **First-mile data collection** – field applications that feed trustworthy, verifiable data directly into the Independent Impact ecosystem.
-

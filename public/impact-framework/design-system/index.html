@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Design System | Independent Impact</title>
+  <meta name="description" content="Shared palettes, typography, and component patterns keep the Independent Impact experience consistent across marketing and product surfaces." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="bg-background text-body">
+  <header class="bg-surface border-b border-border">
+    <div class="container flex flex-col gap-4 py-6 md:flex-row md:items-center md:justify-between">
+      <a href="/" class="flex items-center gap-3 text-xl font-heading font-bold text-brand-blue-800">
+        <img src="/images/IILOGO1.png" alt="Independent Impact logo" class="h-10 w-10" loading="lazy" />
+        <span>Independent Impact</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-menu">
+          
+            <li><a class="nav-link" href="/impact-framework/">Impact Framework</a></li>
+          
+            <li><a class="nav-link" href="/our-story/">Our Story</a></li>
+          
+            <li><a class="nav-link" href="/get-started/">Get Started</a></li>
+          
+            <li><a class="nav-link" href="/resources/">Resources</a></li>
+          
+            <li><a class="nav-link" href="/contact/how-to-engage/">Contact</a></li>
+          
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+  <main>
+    
+<article class="feature-page" style="--badge-color: #1e88e5">
+    
+    <div class="relative isolate overflow-hidden">
+        <style>
+            .badge {
+                background-color: color-mix(in srgb, var(--badge-color) 10%, transparent);
+                color: var(--badge-color);
+            }
+            .gradient-bg {
+                background-image: linear-gradient(180deg, color-mix(in srgb, var(--badge-color) 5%, white), white);
+            }
+        </style>
+        <div class="absolute inset-x-0 top-0 h-96 gradient-bg opacity-75"></div>
+        <div class="relative pt-24 pb-16 sm:pt-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    
+                    <div class="mb-6">
+                        <span class="badge inline-flex items-center rounded-full px-4 py-1.5 text-sm font-medium">
+                            Interface
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Design System</h1>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Shared palettes, typography, and component patterns keep the Independent Impact experience consistent across marketing and product surfaces.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        
+        
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            <div class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
+                
+                <div class="flex flex-col bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-8">
+                    <dt class="text-lg font-semibold leading-7 text-gray-900">
+                        Accessible colour tokens
+                    </dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                        <p class="flex-auto">CSS variables and Tailwind aliases define brand, surface, and state colours that pass contrast guidelines across light and dark modes.</p>
+                    </dd>
+                </div>
+                
+                <div class="flex flex-col bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-8">
+                    <dt class="text-lg font-semibold leading-7 text-gray-900">
+                        Flexible typography scale
+                    </dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                        <p class="flex-auto">Inter and Plus Jakarta Sans power a modern type system with responsive utilities for headings, body copy, and UI accents.</p>
+                    </dd>
+                </div>
+                
+                <div class="flex flex-col bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-8">
+                    <dt class="text-lg font-semibold leading-7 text-gray-900">
+                        Reusable component styles
+                    </dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                        <p class="flex-auto">Buttons, cards, navigation, and CTAs inherit shared Tailwind layers, ensuring any new section drops into the site with minimal overrides.</p>
+                    </dd>
+                </div>
+                
+                <div class="flex flex-col bg-white rounded-2xl shadow-sm ring-1 ring-gray-200 p-8">
+                    <dt class="text-lg font-semibold leading-7 text-gray-900">
+                        Dark-mode ready foundations
+                    </dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                        <p class="flex-auto">Theme tokens include dark-surface variants, letting future product surfaces toggle appearance without rewriting component logic.</p>
+                    </dd>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        
+        <div class="prose prose-lg mx-auto mt-16 pb-24">
+            <h2 id="foundations">Foundations</h2>
+<p>Independent Impact’s visual language lives alongside the Hugo project so that marketing pages and product documentation stay in sync. Core design tokens are defined in <code>assets/css/main.css</code> and surfaced to Tailwind through <code>tailwind.config.js</code>, making colour and spacing choices available as semantic utility classes.</p>
+<ul>
+<li><strong>Colour palette</strong> – Brand blues (<code>--brand-blue-500/700/800</code>), trust navy, verify green, accent cyan, and warning amber sit alongside neutral background, surface, and border tokens. These variables drive Tailwind colour aliases (for example <code>bg-surface</code>, <code>text-body-2</code>), keeping templates expressive without hard-coded hex values.</li>
+<li><strong>Typography</strong> – The default sans-serif stack uses Inter for body copy and Plus Jakarta Sans for headings. Tailwind’s <code>font-sans</code> and <code>font-heading</code> utilities map to these families, while prose components rely on the typography plugin for readable long-form content.</li>
+<li><strong>Spacing and layout</strong> – A shared <code>.container</code> class sets max-width and horizontal padding, and <code>.section</code> governs vertical rhythm. Custom utilities such as the rounded CTA pill (<code>.btn</code>, <code>.btn-primary</code>, <code>.btn-secondary</code>) give consistent interactivity across pages.</li>
+</ul>
+<h2 id="components-and-patterns">Components and Patterns</h2>
+<p>Tailwind component layers declare navigation pills, feature cards, highlight blocks, and CTA sections. Shortcodes in <code>layouts/shortcodes/</code> consume these styles to render heroes, feature grids, testimonials, and team listings without repeating markup. When new marketing blocks are required, authors can extend the existing layers or compose utilities, ensuring additions remain visually aligned.</p>
+<h2 id="future-enhancements">Future Enhancements</h2>
+<p>We are gathering requirements for richer token documentation, including sample usage, downloadable assets, and code snippets for product teams. Planned updates include:</p>
+<ul>
+<li>Previewing both light and dark variants of colour tokens.</li>
+<li>Documenting button and form states with accessibility annotations.</li>
+<li>Publishing Figma tokens that mirror the Tailwind configuration.</li>
+</ul>
+<p><em>What documentation would help your team implement Independent Impact experiences faster?</em> Let us know so we can prioritise the next iteration of the design system.</p>
+
+        </div>
+
+        
+        
+    </div>
+
+    
+    
+<section class="cta-section">
+    <div class="container">
+        
+        
+        
+        <div class="relative rounded-lg overflow-hidden bg-primary-600 cta-gradient"
+             style="--gradient-angle: 30; --gradient-from: #2563eb; --gradient-to: #7c3aed">
+            <div class="relative text-center max-w-3xl mx-auto px-6 py-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Independent Impact</h2>
+                <p class="text-xl text-primary-100 mb-8">A platform for transparent, reputation-led impact accounting.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    
+                        <a href="/contact/how-to-engage/" class="btn bg-white text-primary-600 hover:bg-gray-100">
+                            Partner with us
+                        </a>
+                    
+                    
+                        <a href="/careers/" class="btn border-2 border-white text-white hover:bg-primary-700">
+                            Learn about participation
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</article>
+
+  </main>
+  <footer class="bg-surface border-t border-border mt-16">
+    <div class="container grid gap-10 py-12 md:grid-cols-3">
+      <div>
+        <h2 class="text-lg font-heading font-semibold text-brand-blue-800">Independent Impact</h2>
+        
+        <p class="mt-4 text-sm text-body-2">Independent Impact</p>
+        
+      </div>
+      
+        
+        <div>
+          <h3 class="text-sm font-heading font-semibold uppercase tracking-wide text-body-2">Features</h3>
+          <ul class="mt-4 space-y-3 text-sm text-body-2">
+            
+              <li><a class="nav-link" href="/impact-framework/design-system/">Design System</a></li>
+            
+              <li><a class="nav-link" href="/impact-framework/architectural-principles/">Architectural Principles</a></li>
+            
+              <li><a class="nav-link" href="/impact-framework/technical-architecture/">Technical Architecture</a></li>
+            
+              <li><a class="nav-link" href="/impact-framework/active-capabilities-and-roadmap/">Active Capabilities &amp; Roadmap</a></li>
+            
+          </ul>
+        </div>
+        
+      
+        
+        <div>
+          <h3 class="text-sm font-heading font-semibold uppercase tracking-wide text-body-2">Organisation</h3>
+          <ul class="mt-4 space-y-3 text-sm text-body-2">
+            
+              <li><a class="nav-link" href="/our-story/why-independent-impact/">Why Independent Impact</a></li>
+            
+              <li><a class="nav-link" href="/our-story/nova-impact-journey/">Nova’s Impact Journey</a></li>
+            
+              <li><a class="nav-link" href="/our-story/team/">Team</a></li>
+            
+              <li><a class="nav-link" href="/our-story/history/">History</a></li>
+            
+          </ul>
+        </div>
+        
+      
+        
+        <div>
+          <h3 class="text-sm font-heading font-semibold uppercase tracking-wide text-body-2">Policies</h3>
+          <ul class="mt-4 space-y-3 text-sm text-body-2">
+            
+              <li><a class="nav-link" href="/get-started/project-implementers/">Project Implementers &amp; Developers</a></li>
+            
+              <li><a class="nav-link" href="/get-started/peer-validators/">Peer Validators</a></li>
+            
+              <li><a class="nav-link" href="/get-started/methodology-creators/">Methodology Creators</a></li>
+            
+              <li><a class="nav-link" href="/contact/how-to-engage/">Contact</a></li>
+            
+              <li><a class="nav-link" href="/license">Terms &amp; licensing</a></li>
+            
+              <li><a class="nav-link" href="/privacy">Data stewardship</a></li>
+            
+          </ul>
+        </div>
+        
+      
+    </div>
+    <div class="border-t border-border py-6 text-center text-xs text-body-2">
+      © 2025 Independent Impact. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

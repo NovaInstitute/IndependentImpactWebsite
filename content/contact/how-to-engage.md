@@ -1,7 +1,8 @@
----
-title: "Report Impact"
+title: "How to Engage"
 layout: "simple"
 description: "Share your project, methodology needs, or validation expertise with the Independent Impact team."
+aliases:
+  - /report-impact/
 ---
 
 ## How to engage
@@ -15,7 +16,7 @@ Whether you are developing a new project, authoring a methodology, or offering v
 
 ## Submission channels
 
-Until we publish dedicated intake forms, please reach us through the contact address in the footer. In your message, let us know:
+Until we publish dedicated intake forms, reach us at [info@independentimpact.org](mailto:info@independentimpact.org). In your message, let us know:
 
 - Whether you want to publish a new project, propose a methodology, or join the validator network.
 - Which regions or sectors you operate in and any language considerations we should be aware of.
