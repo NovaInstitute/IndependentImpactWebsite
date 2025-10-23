@@ -80,7 +80,7 @@ if [[ "$RUN_SERVER" == "true" ]]; then
 
   HUGO_SERVER_ARGS=( server --bind "$HTTP_SERVER_BIND" --port "$SERVER_PORT" )
   HUGO_SERVER_ARGS+=( --baseURL "http://$HTTP_SERVER_BIND:$SERVER_PORT/" )
-  HUGO_SERVER_ARGS+=( --renderToDisk )
+  HUGO_SERVER_ARGS+=( --renderStaticToDisk )
   [[ "$RUN_MINIFY" == "true" ]] && HUGO_SERVER_ARGS+=( --minify )
 
   (cd "$REPO_DIR" && HUGO_ENV="$HUGO_ENVIRONMENT" hugo "${HUGO_SERVER_ARGS[@]}")

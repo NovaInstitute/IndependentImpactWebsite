@@ -2,75 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/contact/how-to-engage/</loc>
+    <loc>http://127.0.0.1:1313/contact/how-to-engage/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/get-started/peer-validators/</loc>
+    <loc>http://127.0.0.1:1313/get-started/peer-validators/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/get-started/project-implementers/</loc>
+    <loc>http://127.0.0.1:1313/get-started/project-implementers/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/6/</loc>
+    <loc>http://127.0.0.1:1313/6/</loc>
   </url><url>
-    <loc>http://localhost:1313/company/</loc>
+    <loc>http://127.0.0.1:1313/company/</loc>
     <lastmod>2025-09-22T11:18:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pricing/</loc>
+    <loc>http://127.0.0.1:1313/pricing/</loc>
     <lastmod>2025-09-22T11:18:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impact-framework/active-capabilities-and-roadmap/</loc>
+    <loc>http://127.0.0.1:1313/impact-framework/active-capabilities-and-roadmap/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impact-framework/architectural-principles/</loc>
+    <loc>http://127.0.0.1:1313/impact-framework/architectural-principles/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://127.0.0.1:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://127.0.0.1:1313/contact/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>http://127.0.0.1:1313/privacy/</loc>
     <lastmod>2025-09-22T11:18:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impact-framework/design-system/</loc>
+    <loc>http://127.0.0.1:1313/impact-framework/design-system/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/get-started/field-verifiers/</loc>
+    <loc>http://127.0.0.1:1313/get-started/field-verifiers/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/get-started/</loc>
+    <loc>http://127.0.0.1:1313/get-started/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/our-story/history/</loc>
+    <loc>http://127.0.0.1:1313/our-story/history/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-27T18:17:42+02:00</lastmod>
+    <loc>http://127.0.0.1:1313/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impact-framework/</loc>
+    <loc>http://127.0.0.1:1313/impact-framework/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resources/impact-indicators-and-methods/</loc>
+    <loc>http://127.0.0.1:1313/resources/impact-indicators-and-methods/</loc>
   </url><url>
-    <loc>http://localhost:1313/impact-framework/impact-workflows/</loc>
+    <loc>http://127.0.0.1:1313/impact-framework/impact-workflows/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://127.0.0.1:1313/blog/</loc>
     <lastmod>2025-09-22T11:18:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/get-started/methodology-creators/</loc>
+    <loc>http://127.0.0.1:1313/get-started/methodology-creators/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/our-story/nova-impact-journey/</loc>
+    <loc>http://127.0.0.1:1313/our-story/nova-impact-journey/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/our-story/</loc>
+    <loc>http://127.0.0.1:1313/our-story/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>http://127.0.0.1:1313/page/</loc>
   </url><url>
-    <loc>http://localhost:1313/careers/</loc>
+    <loc>http://127.0.0.1:1313/careers/</loc>
     <lastmod>2025-09-22T11:18:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/get-started/regulators-and-funders/</loc>
+    <loc>http://127.0.0.1:1313/get-started/regulators-and-funders/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resources/</loc>
+    <loc>http://127.0.0.1:1313/resources/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://127.0.0.1:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/our-story/team/</loc>
+    <loc>http://127.0.0.1:1313/our-story/team/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impact-framework/technical-architecture/</loc>
+    <loc>http://127.0.0.1:1313/impact-framework/technical-architecture/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/license/</loc>
+    <loc>http://127.0.0.1:1313/license/</loc>
     <lastmod>2025-09-22T11:18:12+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/our-story/why-independent-impact/</loc>
+    <loc>http://127.0.0.1:1313/our-story/why-independent-impact/</loc>
+    <lastmod>2025-10-23T16:19:52+02:00</lastmod>
   </url>
 </urlset>
