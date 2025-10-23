@@ -66,7 +66,11 @@ TAILWIND_ARGS=( -i assets/css/main.css -o static/css/style.css )
 log "Building Hugo site"
 HUGO_ARGS=( )
 [[ "$RUN_MINIFY" == "true" ]] && HUGO_ARGS+=( --minify )
-(cd "$REPO_DIR" && HUGO_ENV="$HUGO_ENVIRONMENT" hugo "${HUGO_ARGS[@]}")
+if ((${#HUGO_ARGS[@]})); then
+  (cd "$REPO_DIR" && HUGO_ENV="$HUGO_ENVIRONMENT" hugo "${HUGO_ARGS[@]}")
+else
+  (cd "$REPO_DIR" && HUGO_ENV="$HUGO_ENVIRONMENT" hugo)
+fi
 
 [[ -s "$REPO_DIR/public/index.html" ]] || { echo "Build missing public/index.html" >&2; exit 1; }
 
