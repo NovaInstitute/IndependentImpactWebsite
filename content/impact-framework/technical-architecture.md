@@ -1,10 +1,12 @@
 ---
-title: "Platform Architecture"
-slug: "platform-architecture"
+title: "Technical Architecture"
+slug: "technical-architecture"
 description: "Independent Impact combines decentralised identity, verifiable data, and distributed compute to make impact accounting trustworthy and auditable."
 layout: "feature"
 badge: "Technology Stack"
 badgeColor: "#2563eb"
+aliases:
+  - /features/platform-architecture/
 features:
   - title: "Event journaling on Hedera"
     description: "Every submission, evaluation, and verification step is immutably recorded using the Hedera Consensus Service, providing a tamper-evident timeline of actions."

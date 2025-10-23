@@ -4,31 +4,22 @@ title = "Independent Impact"
 
 [menu]
   [[menu.main]]
-    name = "Impact Indicators & Methods"
-    url = "/impact-indicators-and-methods/"
-    weight = 10
-
+    name = "Impact Framework"
+    url = "/impact-framework/"
+    weight = 1
   [[menu.main]]
-    name = "Features"
-    url = "/features/"
-    weight = 15
-
+    name = "Our Story"
+    url = "/our-story/"
+    weight = 2
   [[menu.main]]
-    name = "Project Developers"
-    url = "/project-developers/"
-    weight = 20
-
+    name = "Get Started"
+    url = "/get-started/"
+    weight = 3
   [[menu.main]]
-    name = "Validators & Verifiers"
-    url = "/validators-and-verifiers/"
-    weight = 30
-
+    name = "Resources"
+    url = "/resources/"
+    weight = 4
   [[menu.main]]
-    name = "Report Impact"
-    url = "/report-impact/"
-    weight = 40
-
- [[menu.main]]
-    name = "About us"
-    url = "/aboutus/"
-    weight = 20
+    name = "Contact"
+    url = "/contact/how-to-engage/"
+    weight = 5

@@ -1,7 +1,8 @@
----
-title: "Project Developers"
+title: "Project Implementers & Developers"
 layout: "simple"
 description: "Resources for teams preparing projects, documenting outcomes, and earning reputation on Independent Impact."
+aliases:
+  - /project-developers/
 ---
 
 ## Start with transparent design
@@ -32,4 +33,4 @@ Project developers earn reputation when peers confirm that submitted claims are 
 - Sharing adaptations to methodologies when local realities require contextual adjustments.
 - Mentoring new developers so that community knowledge compounds across regions.
 
-Have a project to share? [Report your impact](/report-impact/) or get in touch through the contact details in the site footer.
+Have a project to share? Start by creating an account at [app.independentimpact.org](https://app.independentimpact.org) and prepare your artefacts. When you are ready, [contact the team](/contact/how-to-engage/) so we can help route your submission to the right validators.
