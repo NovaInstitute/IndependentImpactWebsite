@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Insights on Independent Impact</title>
-    <link>http://127.0.0.1:1313/blog/</link>
+    <link>https://independentimpact.org/blog/</link>
     <description>Recent content in Insights on Independent Impact</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://127.0.0.1:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://independentimpact.org/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
