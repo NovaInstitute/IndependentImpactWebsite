@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Get Started on Independent Impact</title>
-    <link>https://independentimpact.org/get-started/</link>
+    <link>http://localhost:1314/get-started/</link>
     <description>Recent content in Get Started on Independent Impact</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://independentimpact.org/get-started/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/get-started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://independentimpact.org/get-started/peer-validators/</link>
+      <link>http://localhost:1314/get-started/peer-validators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://independentimpact.org/get-started/peer-validators/</guid>
+      <guid>http://localhost:1314/get-started/peer-validators/</guid>
       <description>&lt;p&gt;title: &amp;ldquo;Peer Validators&amp;rdquo;&#xA;layout: &amp;ldquo;simple&amp;rdquo;&#xA;description: &amp;ldquo;Guidance for independent validators who safeguard impact claims on the platform.&amp;rdquo;&#xA;aliases:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;/validators-and-verifiers/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;upholding-assurance&#34;&gt;Upholding assurance&lt;/h2&gt;&#xA;&lt;p&gt;Validators and verifiers ensure that every impact credential is grounded in transparent evidence. Independent Impact records evaluation workflows on the Hedera Consensus Service so that your assessments remain immutable and auditable. Before you accept an assignment, review:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The methodology in scope, including reputation requirements for evaluators.&lt;/li&gt;&#xA;&lt;li&gt;Documentation stored on IPFS or linked repositories.&lt;/li&gt;&#xA;&lt;li&gt;Any conflict-of-interest disclosures from the project team.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;running-your-review&#34;&gt;Running your review&lt;/h2&gt;&#xA;&lt;p&gt;When validating or verifying a project:&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://independentimpact.org/get-started/project-implementers/</link>
+      <link>http://localhost:1314/get-started/project-implementers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://independentimpact.org/get-started/project-implementers/</guid>
+      <guid>http://localhost:1314/get-started/project-implementers/</guid>
       <description>&lt;p&gt;title: &amp;ldquo;Project Implementers &amp;amp; Developers&amp;rdquo;&#xA;layout: &amp;ldquo;simple&amp;rdquo;&#xA;description: &amp;ldquo;Resources for teams preparing projects, documenting outcomes, and earning reputation on Independent Impact.&amp;rdquo;&#xA;aliases:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;/project-developers/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;start-with-transparent-design&#34;&gt;Start with transparent design&lt;/h2&gt;&#xA;&lt;p&gt;Independent Impact welcomes projects that can articulate how activities lead to measurable human outcomes. When you submit a Project Design Document (PDD), explain:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The communities you collaborate with and how they shape priorities.&lt;/li&gt;&#xA;&lt;li&gt;The impact indicators and methodologies you plan to apply.&lt;/li&gt;&#xA;&lt;li&gt;Data collection plans, including how evidence will be captured and stored immutably.&lt;/li&gt;&#xA;&lt;li&gt;The reputation you or your partners already hold on the platform.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;prepare-your-submission-package&#34;&gt;Prepare your submission package&lt;/h2&gt;&#xA;&lt;p&gt;Every PDD should be accompanied by verifiable artefacts. Recommended inclusions are:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Field Verifiers</title>
-      <link>https://independentimpact.org/get-started/field-verifiers/</link>
+      <link>http://localhost:1314/get-started/field-verifiers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://independentimpact.org/get-started/field-verifiers/</guid>
+      <guid>http://localhost:1314/get-started/field-verifiers/</guid>
       <description>&lt;h2 id=&#34;what-field-verifiers-do&#34;&gt;What field verifiers do&lt;/h2&gt;&#xA;&lt;p&gt;Field verifiers document on-the-ground activity so validators and funders can trust that implementation matches reported outcomes. Typical tasks include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Capturing timestamped photos, videos, or sensor readings using approved mobile tools.&lt;/li&gt;&#xA;&lt;li&gt;Collecting community attestations or survey responses that support reported outcomes.&lt;/li&gt;&#xA;&lt;li&gt;Verifying the existence and condition of assets, interventions, or programme participants.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;preparing-for-assignments&#34;&gt;Preparing for assignments&lt;/h2&gt;&#xA;&lt;p&gt;Before accepting an assignment, review:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The methodology, indicators, and assurance requirements in scope.&lt;/li&gt;&#xA;&lt;li&gt;Instructions on how to package and upload evidence (including file formats and naming conventions).&lt;/li&gt;&#xA;&lt;li&gt;The reputation and roles of other project contributors so you can coordinate efficiently.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Independent Impact is piloting dedicated mobile capture tools that publish evidence directly to IPFS with cryptographic proofs of origin. Until that tooling is broadly available, follow the documentation provided by project developers to ensure artefacts can be verified.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Methodology Creators</title>
-      <link>https://independentimpact.org/get-started/methodology-creators/</link>
+      <link>http://localhost:1314/get-started/methodology-creators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://independentimpact.org/get-started/methodology-creators/</guid>
+      <guid>http://localhost:1314/get-started/methodology-creators/</guid>
       <description>&lt;h2 id=&#34;define-transparent-methods&#34;&gt;Define transparent methods&lt;/h2&gt;&#xA;&lt;p&gt;Methodology creators shape how impacts are measured, audited, and compared. When drafting a methodology, document:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scope and intent&lt;/strong&gt; – Describe the interventions and outcomes the methodology covers, including any sector or geography constraints.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Indicators and metrics&lt;/strong&gt; – Specify the quantitative and qualitative indicators required, along with formulas or models used to derive results.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Assurance controls&lt;/strong&gt; – Identify the evidence, data quality checks, and validation procedures validators should expect.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Reputation prerequisites&lt;/strong&gt; – Outline the levels of reputation or experience that validators and verifiers should hold before applying the methodology.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;collaborate-with-peers&#34;&gt;Collaborate with peers&lt;/h2&gt;&#xA;&lt;p&gt;Methodologies evolve through community review. Share drafts with validators, implementers, and subject experts to capture feedback on feasibility and assurance depth. Independent Impact records proposed changes, comments, and approvals so downstream users understand the debate behind every control.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Regulators &amp; Funders</title>
-      <link>https://independentimpact.org/get-started/regulators-and-funders/</link>
+      <link>http://localhost:1314/get-started/regulators-and-funders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://independentimpact.org/get-started/regulators-and-funders/</guid>
+      <guid>http://localhost:1314/get-started/regulators-and-funders/</guid>
       <description>&lt;h2 id=&#34;understand-the-evidence-trail&#34;&gt;Understand the evidence trail&lt;/h2&gt;&#xA;&lt;p&gt;Regulators and funders can interrogate every artefact associated with a project, from raw data to validator credentials. Review:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The reputation levels of implementers, methodology authors, validators, and verifiers.&lt;/li&gt;&#xA;&lt;li&gt;Event logs on the Hedera Consensus Service that show when submissions and approvals occurred.&lt;/li&gt;&#xA;&lt;li&gt;Supporting documentation stored on IPFS or linked repositories.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;set-participation-expectations&#34;&gt;Set participation expectations&lt;/h2&gt;&#xA;&lt;p&gt;Use Independent Impact’s governance model to mandate the assurance levels you require. You can prescribe specific methodologies, minimum reputation scores, or additional review steps that projects must complete before funds are released.&lt;/p&gt;</description>
     </item>
   </channel>

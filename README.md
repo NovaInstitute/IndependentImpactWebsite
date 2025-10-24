@@ -10,7 +10,42 @@ Ensure the following tools are installed locally:
 - [npm](https://www.npmjs.com/) (bundled with Node.js)
 - [Hugo Extended](https://gohugo.io/getting-started/installing/) (v0.111 or later)
 
-## Install dependencies
+## Scripted setup
+
+Two helper scripts live in the repo root:
+
+- `setup-scripts/ubuntu_setup.sh` – bootstraps Node.js 18 LTS and Hugo Extended on a fresh Ubuntu machine (run with sudo).
+- `update-independentimpact-local.sh` – keeps a local checkout on macOS/Linux in sync, rebuilds assets, and serves the site.
+
+### update-independentimpact-local.sh
+
+Run the script from the repository root:
+
+```bash
+./update-independentimpact-local.sh
+```
+
+The script will:
+
+1. Fetch the latest Git changes (default branch `main`).
+2. Install/refresh npm dependencies (`npm install --no-audit --no-fund`).
+3. Rebuild Tailwind CSS into `static/css/style.css`.
+4. Run `hugo` to regenerate the site into `public/`.
+5. Start `hugo server` on `http://127.0.0.1:1313` with live reload disabled.
+
+Environment variables you can override:
+
+- `ALLOW_DIRTY=true` – skip the clean working-tree check.
+- `RUN_SERVER=false` – skip launching `hugo server` after the build.
+- `RUN_MINIFY=true` – pass `--minify` to Tailwind and Hugo.
+- `BRANCH=feature/my-branch` – have the script ensure it is on a different branch.
+- `SERVER_PORT` / `HTTP_SERVER_BIND` – control the dev-server bind address.
+
+Stop the dev server with `Ctrl+C`.
+
+## Install dependencies manually
+
+If you prefer not to use the helper script, install packages yourself:
 
 ```bash
 npm install
