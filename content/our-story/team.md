@@ -31,7 +31,7 @@ description: "Independent Impact is built by practitioners who blend community d
 
       {{< team-member 
           name="Montagu Murray"
-          title="SCEO, Nova Institute"
+          title="CEO, Nova Institute"
           image="/images/company/Montagu.webp"
           linkedin="#"
       >}}
