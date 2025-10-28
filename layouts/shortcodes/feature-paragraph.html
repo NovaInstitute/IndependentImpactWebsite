@@ -1,0 +1,14 @@
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $width := .Get "width" | default "max-w-3xl" }}
+{{ $class := .Get "class" }}
+<section class="section {{ $class }}">
+  <div class="container {{ $width }} mx-auto text-center space-y-4">
+    {{ with $title }}
+    <h2 class="text-3xl font-heading font-bold text-brand-blue-800">{{ . }}</h2>
+    {{ end }}
+    {{ with $description }}
+    <p class="text-lg text-body-2">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
