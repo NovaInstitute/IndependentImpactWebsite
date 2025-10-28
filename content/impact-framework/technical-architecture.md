@@ -56,6 +56,8 @@ Artefacts associated with impact claims are pinned to IPFS, giving each document
 
 Quantitative assessments often rely on complex calculations. Jellyfish executes these computations in a verifiable manner, producing reproducible outputs with clear provenance of the data and logic used.
 
+{{< section-container >}}
+
 ### Tokenisation Pathways
 
 Once an impact claim has passed through peer review and verification, it can be tokenised via the Hedera Token Service. Tokenisation links the reputation of creators, validators, and verifiers to the resulting assets, giving buyers confidence in both the process and its outcomes.
