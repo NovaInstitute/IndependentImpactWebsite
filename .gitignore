@@ -7,3 +7,4 @@ node_modules/*
 hugo_stats.json
 public/
 
+static/css/style.css
