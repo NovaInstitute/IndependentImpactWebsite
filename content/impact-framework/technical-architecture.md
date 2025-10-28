@@ -40,6 +40,7 @@ aliases:
     align="left"
     padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
 
 {{< feature-paragraph
     title="Hedera Consensus Service"
@@ -48,6 +49,7 @@ aliases:
     align="left"
     padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
 
 {{< feature-paragraph
     title="Decentralised Identifiers and Verifiable Credentials"
@@ -56,6 +58,7 @@ aliases:
     align="left"
     padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
 
 {{< feature-paragraph
     title="IPFS and Fluree for Data Integrity"
@@ -64,6 +67,7 @@ aliases:
     align="left"
     padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
 
 {{< feature-paragraph
     title="Verifiable Compute with Jellyfish"
@@ -72,6 +76,7 @@ aliases:
     align="left"
     padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
 
 {{< feature-paragraph
     title="Tokenisation Pathways"
@@ -80,3 +85,4 @@ aliases:
     align="left"
     padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
