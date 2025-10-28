@@ -11,7 +11,7 @@ description: "Independent Impact is built by practitioners who blend community d
       {{< team-member 
           name="Christiaan Pauw"
           title="Nova Institute Director & Independent Impact Lead"
-          image="/images/company/cjpx.jpg"
+          image="/images/company/cjpx2.jpg"
           linkedin="#"
       >}}
 
