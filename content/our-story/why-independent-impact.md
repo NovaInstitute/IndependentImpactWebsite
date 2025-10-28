@@ -6,11 +6,13 @@ description: "We are building a transparent, reputation-led alternative to opaqu
 
 {{< feature-paragraph
 title="The problem we saw"
-description="Traditional impact reporting and verification systems are slow, expensive, and monopolised, placing heavy financial and technical barriers in front of smaller or locally rooted initiatives. Verifiers often lack local knowledge, and methodologies can be limited or misaligned with the real issues. The result is a system that rewards scale over integrity, privileges middle-men over households, and leaves impact claims difficult to compare, trust, or verify."
 width="max-w-4xl"
 align="left"
 padding="py-8 sm:py-12"
 >}}
+
+Traditional impact reporting and verification systems are slow, expensive, and monopolised, placing heavy financial and technical barriers in front of smaller or locally rooted initiatives. Verifiers often lack local knowledge, and methodologies can be limited or misaligned with the real issues. The result is a system that rewards scale over integrity, privileges middle-men over households, and leaves impact claims difficult to compare, trust, or verify.
+
 {{< /feature-paragraph >}}
 
 {{< feature-paragraph
