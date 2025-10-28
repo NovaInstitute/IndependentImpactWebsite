@@ -45,8 +45,13 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 {{< /features-section >}}
 
 {{< features-section
-    title="How it works"
+    title="How it works: The project developement journey"
     description="Independent Impact links transparent project documentation with peer validation and verifiable credentials."
+>}}
+
+{{< feature
+    title="Establish your identity"
+    description="Log into the <a href=\"https://app.independentimpact.org\" target=\"_blank\" rel=\"noopener\">project developer portal</a> and register with your email. We will create a Hedera Account. Hedera wallet login coming soon."
 >}}
 
 {{< feature
@@ -231,4 +236,3 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 >}}
 
 {{< /features-section >}}
-
