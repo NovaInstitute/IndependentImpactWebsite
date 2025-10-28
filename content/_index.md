@@ -51,7 +51,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< feature
     title="Establish your identity"
-    description="Log into the <a href=\"https://app.independentimpact.org\" target=\"_blank\" rel=\"noopener\">project developer portal</a> and register with your email. We will create a Hedera Account. Hedera wallet login coming soon."
+    description="Log into the [project developer portal](https://app.independentimpact.org){target=\"_blank\" rel=\"noopener\"} and register with your email. We will create a Hedera Account. Hedera wallet login coming soon."
 >}}
 
 {{< feature
