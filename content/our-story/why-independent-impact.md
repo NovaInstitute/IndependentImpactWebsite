@@ -10,9 +10,8 @@ Traditional impact reporting and verification systems are slow, expensive, and m
 
 ## The approach we are taking
 
-Independent Impact turns this model on its head. 
+Independent Impact turns this model on its head. By emphasising radical transparency, we want to avoid  monopolies based on the authoroty of so-called experts. When each action and artefact is transparent, users can decide for themselves 
 
-Creating impact is hard enough without having to jump through endless hoops to prove it. Verification should enable changemakers, not stifle them. It should ensure that investments reach the ground where they matter most and help those driving change achieve their aims.
 
 We believe in community. A reputation-based system, built on the expertise of practitioners who understand local contexts, can systematically and reliably validate and verify impact. We believe this can be done using technology that simplifies the process, strengthens transparency, and builds lasting trust.
 

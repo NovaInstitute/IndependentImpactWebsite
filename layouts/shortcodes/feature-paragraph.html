@@ -2,10 +2,13 @@
 {{ $description := .Get "description" }}
 {{ $width := .Get "width" | default "max-w-3xl" }}
 {{ $class := .Get "class" }}
-<section class="section {{ $class }}">
-  <div class="container {{ $width }} mx-auto text-center space-y-2">
+{{ $align := .Get "align" | default "center" }}
+{{ $padding := .Get "padding" | default "py-12 sm:py-16" }}
+{{ $textAlign := cond (eq $align "left") "text-left" (cond (eq $align "right") "text-right" "text-center") }}
+<section class="{{ $padding }} {{ $class }}">
+  <div class="container {{ $width }} mx-auto {{ $textAlign }} space-y-3">
     {{ with $title }}
-    <h2 class="text-2xl font-heading font-bold text-brand-blue-800">{{ . }}</h2>
+    <h2 class="text-3xl font-heading font-bold text-brand-blue-800">{{ . }}</h2>
     {{ end }}
     {{ with $description }}
     <p class="text-lg text-body-2">{{ . }}</p>
