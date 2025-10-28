@@ -232,21 +232,3 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< /features-section >}}
 
-
-
-
-
-
-
-
-
-## Active Capabilities
-
-- **PDD validation workflow** – end-to-end process for submitting project design documents, coordinating peer validation, and issuing verifiable credentials backed by reputation scores.
-- **Verifiable compute integrations** – reproducible execution of assessment logic using Jellyfish to maintain trust in quantitative outcomes.
-
-## Roadmap
-
-- **Methodology development workflow** – collaborative tools for designing, reviewing, and approving new methodologies within the reputation system.
-- **Reputation ecosystem expansion** – deeper incentives and transparency for how agents earn, lose, and apply reputation across roles.
-- **First-mile data collection** – field applications that feed trustworthy, verifiable data directly into the Independent Impact ecosystem.
