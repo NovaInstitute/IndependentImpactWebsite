@@ -14,7 +14,7 @@ padding="py-8 sm:py-12"
 
 {{< feature-paragraph
 title="The approach we are taking"
-description="Independent Impact aims to turn this model on its head using two principles: *everything should be transparent* and *everything can be evaluated*. 
+description="Independent Impact aims to turn this model on its head using two principles: <em>everything should be transparent</em> and <em>everything can be evaluated</em>. 
 
 Having Transparency as the basis of the ecosystems makes auditing faster and thus cheaper. By emphasising radical transparency, we can simultainiously maintain flexibility and avoid monopolies based on the authoroty of so-called experts. When each action and artefact is transparent, users do not have to blindly believe so-called experts but can decide for themselves how to value the outcomes.
 
