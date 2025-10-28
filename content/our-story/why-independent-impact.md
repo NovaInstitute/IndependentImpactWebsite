@@ -11,6 +11,7 @@ width="max-w-4xl"
 align="left"
 padding="py-8 sm:py-12"
 >}}
+{{< /feature-paragraph >}}
 
 {{< feature-paragraph
 title="The approach we are taking"
