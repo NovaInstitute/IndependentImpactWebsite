@@ -12,7 +12,7 @@ new text but mirror style of other parts of landing page
 
 ## Impact Framework
 Design System
-Architectural Principals
+Architectural Principals 
 Technical Architecture
 Active Capabilities & Roadmap
 

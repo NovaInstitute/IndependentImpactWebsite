@@ -65,7 +65,7 @@ paginatePath = "page"
     
     # Logo configuration
     [params.header.logo]
-      src = "/images/logo.svg"
+      src = "/images/IILOGO1.png"
     
     # Menu configuration
     [params.header.menu]

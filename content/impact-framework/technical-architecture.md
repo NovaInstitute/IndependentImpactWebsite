@@ -2,22 +2,38 @@
 title: "Technical Architecture"
 slug: "technical-architecture"
 description: "Independent Impact combines decentralised identity, verifiable data, and distributed compute to make impact accounting trustworthy and auditable."
-layout: "feature"
-badge: "Technology Stack"
-badgeColor: "#2563eb"
 aliases:
   - /features/platform-architecture/
-features:
-  - title: "Event journaling on Hedera"
-    description: "Every submission, evaluation, and verification step is immutably recorded using the Hedera Consensus Service, providing a tamper-evident timeline of actions."
-  - title: "Verifiable identities and attestations"
-    description: "W3C DIDs anchor agent identities while W3C Verifiable Credentials encode attestations that buyers and peers can independently verify."
-  - title: "Immutable artefact storage"
-    description: "Project documentation and evidentiary artefacts are stored on IPFS, ensuring they remain accessible and provably unaltered."
-  - title: "Reputation-aware tokenisation"
-    description: "The Hedera Token Service allows verified outcomes to be tokenised with clear links to the agents and controls responsible for their quality."
 ---
 
+{{< features-section
+    title="Technical Architecture"
+    description="Independent Impact combines decentralised identity, verifiable data, and distributed compute to make impact accounting trustworthy and auditable."
+>}}
+
+{{< feature
+    title="Event journaling on Hedera"
+    description="Every submission, evaluation, and verification step is immutably recorded using the Hedera Consensus Service, providing a tamper-evident timeline of actions."
+>}}
+
+{{< feature
+    title="Verifiable identities and attestations"
+    description="W3C DIDs anchor agent identities while W3C Verifiable Credentials encode attestations that buyers and peers can independently verify."
+>}}
+
+{{< feature
+    title="Immutable artefact storage"
+    description="Project documentation and evidentiary artefacts are stored on IPFS, ensuring they remain accessible and provably unaltered."
+>}}
+
+{{< feature
+    title="Reputation-aware tokenisation"
+    description="The Hedera Token Service allows verified outcomes to be tokenised with clear links to the agents and controls responsible for their quality."
+>}}
+
+{{< /features-section >}}
+
+{{< section-container class="py-16" >}}
 ## Architectural Principles
 
 Independent Impact implements technologies that reinforce transparency and accountability at every layer of the impact lifecycle. The stack is intentionally modular so the platform can incorporate new methodologies, data sources, and assurance requirements without sacrificing integrity.
@@ -41,3 +57,4 @@ Quantitative assessments often rely on complex calculations. Jellyfish executes 
 ### Tokenisation Pathways
 
 Once an impact claim has passed through peer review and verification, it can be tokenised via the Hedera Token Service. Tokenisation links the reputation of creators, validators, and verifiers to the resulting assets, giving buyers confidence in both the process and its outcomes.
+{{< /section-container >}}
