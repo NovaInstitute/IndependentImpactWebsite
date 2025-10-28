@@ -33,11 +33,11 @@ aliases:
 
 {{< /features-section >}}
 
-{{< section-container >}}
+{{< section-container
 ## Architectural Principles
 
 Independent Impact implements technologies that reinforce transparency and accountability at every layer of the impact lifecycle. The stack is intentionally modular so the platform can incorporate new methodologies, data sources, and assurance requirements without sacrificing integrity.
-{{< /section-container >}}
+>}}
 
 ### Hedera Consensus Service
 
