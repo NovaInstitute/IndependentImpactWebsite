@@ -11,7 +11,7 @@
     <h2 class="text-3xl font-heading font-bold text-brand-blue-800">{{ . }}</h2>
     {{ end }}
     {{ with $description }}
-    <p class="text-lg text-body-2">{{ . }}</p>
+    <div class="text-lg text-body-2 prose prose-base prose-slate max-w-none">{{ . | markdownify }}</div>
     {{ end }}
   </div>
 </section>
