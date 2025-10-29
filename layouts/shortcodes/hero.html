@@ -5,6 +5,8 @@
 {{ $primaryURL := .Get "primary_button_url" | default "#" }}
 {{ $secondaryText := .Get "secondary_button_text" }}
 {{ $secondaryURL := .Get "secondary_button_url" | default "#" }}
+{{ $tertiaryText := .Get "tertiary_button_text" }}
+{{ $tertiaryURL := .Get "tertiary_button_url" | default "#" }}
 {{ $image := .Get "hero_image" }}
 {{ $gradientFrom := .Get "gradient-from" | default "var(--brand-blue-500)" }}
 {{ $gradientTo := .Get "gradient-to" | default "var(--accent-cyan)" }}
@@ -24,6 +26,9 @@
         {{ end }}
         {{ with $secondaryText }}
         <a class="btn-outline" href="{{ $secondaryURL }}">{{ . }}</a>
+        {{ end }}
+        {{ with $tertiaryText }}
+        <a class="btn-secondary" href="{{ $tertiaryURL }}">{{ . }}</a>
         {{ end }}
       </div>
     </div>
