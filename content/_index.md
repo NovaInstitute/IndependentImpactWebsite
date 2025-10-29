@@ -140,7 +140,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     title="AI-powered impact browser"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="AI tools help users explore and understand impact data with natural language search and assisted explanations."
+    description="AI tools help users explore and understand impact data with natural language search and assisted explanations via the [Impact Explorer](https://chat.independentimpact.org)."
     features="Natural language queries, Contextual explanations, Query generation"
     imagePosition="right"
 >}}

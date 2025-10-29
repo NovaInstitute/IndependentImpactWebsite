@@ -45,7 +45,7 @@ description: "A snapshot of what the Independent Impact platform delivers today 
     title="AI-powered impact browser"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Natural-language search and assisted explanations help teams explore verified impact data."
+    description="Natural-language search and assisted explanations help teams explore verified impact data via the [Impact Explorer](https://chat.independentimpact.org)."
     features="Natural language queries,Contextual explanations,Query generation"
 >}}
 
