@@ -92,7 +92,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     title="User registration and identity"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Basic functionality for registering users and linking their Decentralised Identifiers (DIDs) to their accounts."
+    description="Basic functionality for registering users and linking their Decentralised Identifiers (DIDs) to their accounts is live on the [project developer portal](https://app.independentimpact.org)."
     features="Standards body, Project developer, Validator, Verifier"
     imagePosition="right"
 >}}
@@ -101,7 +101,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     title="Project Design Document (PDD) creation"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Project developers can create and submit PDDs for peer validation."
+    description="Project developers can create and submit PDDs for peer validation directly in the [project developer portal](https://app.independentimpact.org)."
     features="Complete generic PDD template"
     imagePosition="right"
 >}}
@@ -110,7 +110,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     title="Project Design Document (PDD) validation"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="PDD validation workflow for validator and project developer."
+    description="PDD validation workflow for validator and project developer is available in the [project developer portal](https://app.independentimpact.org)."
     features="Paragraph-level review and approval, Corrective action requests and resolution, Forward action requests, Final approval and projecy registration"
     imagePosition="right"
 >}}
@@ -136,9 +136,9 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< feature
     title="AI-powered impact browser"
-    badge="In Progress"
-    badgeColor="#eb9525ff"
-    description="AI tools to help users explore and understand impact data"
+    badge="Completed"
+    badgeColor="#25eb85ff"
+    description="AI tools help users explore and understand impact data with natural language search and assisted explanations."
     features="Natural language queries, Contextual explanations, Query generation"
     imagePosition="right"
 >}}
@@ -154,10 +154,19 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< feature
     title="Impact methodologies library"
+    badge="In Progress"
+    badgeColor="#eb9525ff"
+    description="A library of impact methodologies by indicator is rolling out, with published R packages for [large-scale ACM](https://independentimpact.github.io/GHG_methodologies/#large-scale-methodologies-acm) and [small-scale AMS](https://independentimpact.github.io/GHG_methodologies/#small-scale-methodologies-ams) use cases."
+    features="Standardised methodology format, Comment and finalisation process, Registry of finalised methodologies, Portal and tools and methodology development"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Integration with Learning Tokens"
     badge="Planned"
     badgeColor="#5d25ebff"
-    description="A library of impact methodologies by indicator"
-    features="Standardised methodology format, Comment and finalisation process, Registry of finalised methodologies, Portal and tools and methodology development"
+    description="Hedera Learning Tokens will reward knowledge contributions and training milestones."
+    features="Implement learning token specification for Hedera Token Service,Build user toolkit,Pilot learning-token incentives"
     imagePosition="right"
 >}}
 
