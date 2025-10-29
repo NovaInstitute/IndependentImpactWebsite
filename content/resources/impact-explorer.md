@@ -8,7 +8,7 @@ Independent Impact stores agent, activity, and impact records inside a Fluree se
 
 {{< features-section
     title="How the Impact Explorer works"
-    description="An AI assistant translates your questions into secure Fluree queries and explains the context behind each answer."
+    description="An AI assistant translates your questions into secure Fluree queries, explains the context behind each answer, and lets you [try it out here](https://chat.independentimpact.org/?view=chatbot)."
 >}}
 
 {{< feature
