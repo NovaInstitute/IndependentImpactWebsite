@@ -1,3 +1,4 @@
+---
 title: "Peer Validators"
 layout: "simple"
 description: "Guidance for independent validators who safeguard impact claims on the platform."

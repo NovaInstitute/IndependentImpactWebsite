@@ -1,3 +1,4 @@
+---
 title: "Project Implementers & Developers"
 layout: "simple"
 description: "Resources for teams preparing projects, documenting outcomes, and earning reputation on Independent Impact."
