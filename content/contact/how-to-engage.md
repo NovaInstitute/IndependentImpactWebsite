@@ -22,6 +22,7 @@ Until we publish dedicated intake forms, reach us at [info@independentimpact.org
 - Which regions or sectors you operate in and any language considerations we should be aware of.
 - If there are sensitive datasets or privacy requirements we should plan for.
 - For greenhouse gas methodology questions or collaboration, join the [GHG Methodologies discussions](https://github.com/IndependentImpact/GHG_methodologies/discussions).
+- For Guardian API automation topics, participate in the [Guardener discussions](https://github.com/IndependentImpact/Guardener/discussions).
 
 ## What happens next
 
