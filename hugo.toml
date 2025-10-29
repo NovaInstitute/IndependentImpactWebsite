@@ -167,15 +167,14 @@ paginatePath = "page"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Impact Framework"
+    name = "Roadmap"
     url = "/impact-framework/"
     weight = 1
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Design System", url = "/impact-framework/design-system/" },
-        { name = "Architectural Principles", url = "/impact-framework/architectural-principles/" },
         { name = "Technical Architecture", url = "/impact-framework/technical-architecture/" },
+        { name = "Impact Workflows", url = "/impact-framework/impact-workflows/" },
         { name = "Active Capabilities & Roadmap", url = "/impact-framework/active-capabilities-and-roadmap/" }
       ]
   [[menu.main]]
@@ -220,21 +219,17 @@ paginatePath = "page"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/impact-framework/design-system/"
-    weight = 1
-  [[menu.footer_column_1]]
-    name = "Architectural Principles"
-    url = "/impact-framework/architectural-principles/"
-    weight = 2
-  [[menu.footer_column_1]]
     name = "Technical Architecture"
     url = "/impact-framework/technical-architecture/"
-    weight = 3
+    weight = 1
+  [[menu.footer_column_1]]
+    name = "Impact Workflows"
+    url = "/impact-framework/impact-workflows/"
+    weight = 2
   [[menu.footer_column_1]]
     name = "Active Capabilities & Roadmap"
     url = "/impact-framework/active-capabilities-and-roadmap/"
-    weight = 4
+    weight = 3
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]
