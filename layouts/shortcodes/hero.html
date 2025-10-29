@@ -35,6 +35,9 @@
     {{ with $image }}
     <div class="relative">
       <img class="w-full max-w-xl mx-auto" src="{{ . }}" alt="{{ $headlineText }} illustration" loading="lazy" />
+      <p class="absolute bottom-2 right-2 text-xs text-white/80 bg-black/40 px-2 py-1 rounded">
+        <a href="/acknowledgements" class="hover:underline">© Duckin (CC BY-SA 4.0)</a>
+      </p>
     </div>
     {{ end }}
   </div>

@@ -12,7 +12,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     secondary_button_url="https://app.independentimpact.org"
     tertiary_button_text="Impact Explorer"
     tertiary_button_url="https://chat.independentimpact.org/?view=chatbot"
-    hero_image="/images/lighthouse.JPG"
+    hero_image="/images/Yellow-honeycomb-bees.jpg"
     gradient-from="#e0f2fe"
     gradient-to="#ede9fe"
     gradient-angle="160"
