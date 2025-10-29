@@ -63,6 +63,11 @@ main() {
     need npm
     log "Installing Node dependencies (npm ci)"
     (cd "$SRC_DIR" && npm ci --no-audit --no-fund)
+
+    log "Building Tailwind CSS assets"
+    TAILWIND_ARGS=( -i assets/css/main.css -o static/css/style.css )
+    [[ "$RUN_MINIFY" == "true" ]] && TAILWIND_ARGS+=( --minify )
+    (cd "$SRC_DIR" && npx tailwindcss "${TAILWIND_ARGS[@]}")
   fi
 
   # Build to a temp dir (atomic)
@@ -119,4 +124,3 @@ main() {
 }
 
 main "$@"
-
