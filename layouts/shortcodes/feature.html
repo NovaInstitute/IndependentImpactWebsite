@@ -34,7 +34,8 @@
         {{ range $items }}
         <li class="flex items-start gap-3">
           <span class="mt-1 h-2 w-2 rounded-full bg-brand-blue-500"></span>
-          <span>{{ . }}</span>
+          {{ $item := . | markdownify | replaceRE "^<p>|</p>$" "" }}
+          <span class="prose prose-sm max-w-none">{{ $item | safeHTML }}</span>
         </li>
         {{ end }}
       </ul>
