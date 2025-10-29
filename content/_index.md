@@ -11,7 +11,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     secondary_button_text="Project Development Portal"
     secondary_button_url="https://app.independentimpact.org"
     tertiary_button_text="Impact Explorer"
-    tertiary_button_url="https://char.independentimpact.org"
+    tertiary_button_url="https://chat.independentimpact.org"
     hero_image="/images/lighthouse.JPG"
     gradient-from="#e0f2fe"
     gradient-to="#ede9fe"
