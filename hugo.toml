@@ -27,7 +27,7 @@ paginatePath = "page"
 [params]
   description = "Independent Impact"
   author = "Nova Institute"
-  logo = "/images/IILOGO1.png"
+  logo = "/images/logos/IILOGO1.png"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
   
