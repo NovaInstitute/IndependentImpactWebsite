@@ -27,4 +27,4 @@ Independent Impact stores agent, activity, and impact records inside a Fluree se
 
 {{< /features-section >}}
 
-Try it now: [Open the Impact Explorer](https://chat.independentimpact.org)
+Try it now: [Open the Impact Explorer](https://chat.independentimpact.org/?view=chatbot)
