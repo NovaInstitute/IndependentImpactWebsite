@@ -1,6 +1,7 @@
 ---
 title: "Methodology Library"
 description: "Quick links to Independent Impact’s greenhouse gas methodologies for both consolidated (ACM) and small-scale (AMS) programmes."
+weight: 2
 ---
 
 {{< features-section

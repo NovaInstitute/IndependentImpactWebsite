@@ -1,6 +1,7 @@
 ---
 title: "Open Source Tools"
 description: "Independent Impact publishes open tooling so partners can build and integrate faster."
+weight: 3
 ---
 
 {{< features-section

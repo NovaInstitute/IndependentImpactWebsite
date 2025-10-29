@@ -1,6 +1,7 @@
 ---
 title: "Impact Explorer"
 description: "Explore Independent Impact’s public Fluree knowledge graph with natural language queries."
+weight: 1
 ---
 
 Independent Impact stores agent, activity, and impact records inside a Fluree semantic database. [Fluree](https://flur.ee) combines a graph data model with blockchain-style immutability, time-travel queries, and granular permissioning—making it ideal for auditable impact accounting.
