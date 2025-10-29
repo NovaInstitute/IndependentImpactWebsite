@@ -26,28 +26,28 @@ description: "Independent Impact is built by practitioners who blend community d
           name="Tshepo Sotiya"
           title="Software Developer, Nova Institute"
           image="/images/company/tshepo2.jpg"
-          linkedin="#"
+          linkedin="https://www.linkedin.com/in/tshepo-sotiya-a9881b145/"
       >}}
 
       {{< team-member 
           name="Montagu Murray"
           title="CEO, Nova Institute"
           image="/images/company/Montagu.webp"
-          linkedin="#"
+          linkedin="https://www.linkedin.com/in/dr-montagu-murray-98b599358/"
       >}}
 
       {{< team-member 
           name="Jade Jacobsohn"
           title="Director, Impact Out"
           image="/images/company/jade2.jpg"
-          linkedin="#"
+          linkedin="https://www.linkedin.com/in/jade-jacobsohn/"
       >}}
 
       {{< team-member 
           name="Tertius Murray"
           title="CFO, Nova Institute"
           image="/images/company/tertius2.jpg"
-          linkedin="#"
+          linkedin="https://www.linkedin.com/in/tertius-murray-9587a833/"
       >}}
     </div>
   </div>
