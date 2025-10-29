@@ -21,6 +21,7 @@ Until we publish dedicated intake forms, reach us at [info@independentimpact.org
 - Whether you want to publish a new project, propose a methodology, or join the validator network.
 - Which regions or sectors you operate in and any language considerations we should be aware of.
 - If there are sensitive datasets or privacy requirements we should plan for.
+- For greenhouse gas methodology questions or collaboration, join the [GHG Methodologies discussions](https://github.com/IndependentImpact/GHG_methodologies/discussions).
 
 ## What happens next
 
