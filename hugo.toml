@@ -209,7 +209,7 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "Impact Indicators & Methods", url = "/resources/impact-indicators-and-methods/" },
+        { name = "Methodology library", url = "/resources/methodology-library/" },
         { name = "Open source tools", url = "/resources/open-source-tools/" },
         { name = "Blog", url = "/blog/" }
       ]
