@@ -6,15 +6,6 @@ aliases:
   - /report-impact/
 ---
 
-## How to engage
-
-Whether you are developing a new project, authoring a methodology, or offering validation expertise, Independent Impact wants to hear from you. Use this page as your checklist before reaching out:
-
-1. **Summarise your initiative** – Outline the community, outcomes, and timeframe you are working toward.
-2. **Reference your methodology** – Link to existing guidance or describe the evidence you plan to collect.
-3. **List collaborators** – Include participating organisations, local partners, and any validators already involved.
-4. **Highlight support needs** – Tell us which tools, ontologies, or governance processes you need to advance your work.
-
 ## Submission channels
 
 Until we publish dedicated intake forms, reach us at [info@independentimpact.org](mailto:info@independentimpact.org). In your message, let us know:
