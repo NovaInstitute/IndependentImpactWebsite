@@ -1,5 +1,4 @@
 ---
----
 title: "Regulators & Funders"
 layout: "simple"
 description: "How oversight bodies and capital providers can engage with Independent Impact."

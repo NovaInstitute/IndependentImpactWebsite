@@ -1,5 +1,4 @@
 ---
----
 title: "Methodology Creators"
 layout: "simple"
 description: "How subject-matter experts can contribute indicators and methodologies to Independent Impact."
