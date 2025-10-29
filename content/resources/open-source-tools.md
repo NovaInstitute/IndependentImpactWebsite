@@ -23,4 +23,9 @@ description: "Independent Impact publishes open tooling so partners can build an
     description="R bindings for the [w3 CLI](https://github.com/IndependentImpact/w3cli), exposing Web3.Storage account, space, and upload management commands for reproducible IPFS workflows."
 >}}
 
+{{< feature
+    title="Hadeda R package"
+    description="Tidyverse-style wrappers around Hedera Hashgraph REST and gRPC APIs from [novaInstitute/Hadeda](https://github.com/novaInstitute/Hadeda), delivering data frames for ledgers, transactions, and monitoring pipelines directly in R."
+>}}
+
 {{< /features-section >}}
