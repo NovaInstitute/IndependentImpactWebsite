@@ -41,7 +41,7 @@ What Independent Impact is today and what it will still become started with a vi
 The Whitepaper identified the veracity of the data stored in the blockchain as the "basic problem that must be addressed in a blockchain-based ecosystem that tokenises real world outcomes" and sets out an approach to support the quality of such data based on transparency, identity and reputation. Although Aarum envisioned an implementation on Hyperledger Sawtooth and focused on a cryptocurrency whose value derives from verified outcomes of communal benefits, the basic principles articulated in the Aartum Whitepaper remain valid and were taken over by Independent Impact.
 
 AIAO Ontology
-Developing Aartum, we realised that there was a need for a fundamental ontology for anthropogenic impact accounting to form the basis on which we can compare quantifications of human impact. In the context of the Climate Action and Accounting Special Interst Group of the Hyperledger Foundation (now Linux Foundation Decentralized Trust), we started contributing to work on an ontology for anthropogenic impact accounting. The work culminated in the release of four ontologies: The Anthropogenic Impact Accounting Ontology (AIAO), the
+Developing Aartum, we realised that there was a need for a fundamental ontology for anthropogenic impact accounting to form the basis on which we can compare quantifications of human impact. In the context of the Climate Action and Accounting Special Interest Group of the Hyperledger Foundation (now Linux Foundation Decentralized Trust), we started contributing to work on an ontology for anthropogenic impact accounting. The work culminated in the release of four ontologies: The Anthropogenic Impact Accounting Ontology (AIAO), the
 
 Hyperledger
 

@@ -23,7 +23,7 @@ Team Members
 History
 
 ## Get Started
-Project Implementors and Developers (give a link to app.independentimpact.org)
+Project Implementers and Developers (give a link to app.independentimpact.org)
 Methodology Creators
 Peer Validators
 Field Verifiers

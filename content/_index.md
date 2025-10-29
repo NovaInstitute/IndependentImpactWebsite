@@ -47,7 +47,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 {{< /features-section >}}
 
 {{< features-section
-    title="How it works: The project developement journey"
+    title="How it works: The project development journey"
     description="Independent Impact links transparent project documentation with peer validation and verifiable credentials."
 >}}
 
