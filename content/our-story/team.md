@@ -12,14 +12,14 @@ description: "Independent Impact is built by practitioners who blend community d
           name="Christiaan Pauw"
           title="Nova Institute Director & Independent Impact Lead"
           image="/images/company/cjpx2.jpg"
-          linkedin="#"
+          linkedin="https://www.linkedin.com/in/christiaan-pauw-a5034533/"
       >}}
 
       {{< team-member 
           name="Alex Howard"
           title="Independent Developer & Data Engineer, Jellyfish Technologies"
           image="/images/company/AlexIvanHoward.jpeg"
-          linkedin="#"
+          linkedin="https://www.linkedin.com/in/alexhoward1/"
       >}}
 
       {{< team-member 
