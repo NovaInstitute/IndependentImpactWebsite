@@ -8,7 +8,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     sub_headline="A radically open platform for reporting, quantifying, and verifying human impact with transparency, community oversight, and verifiable technology."
     primary_button_text="Explore our philosophy"
     primary_button_url="/our-story/why-independent-impact/"
-    secondary_button_text="Project Development Platform"
+    secondary_button_text="Project Development Portal"
     secondary_button_url="https://app.independentimpact.org"
     tertiary_button_text="Impact Explorer"
     tertiary_button_url="https://char.independentimpact.org"

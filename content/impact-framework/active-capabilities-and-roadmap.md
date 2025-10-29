@@ -21,7 +21,7 @@ description: "A snapshot of what the Independent Impact platform delivers today 
     title="User registration and identity"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Register and link decentralised identifiers inside the [project developer portal](https://app.independentimpact.org)."
+    description="Register and link decentralised identifiers inside the [Project Development Portal](https://app.independentimpact.org)."
     features="Standards body,Project developer,Validator,Verifier"
 >}}
 
@@ -29,7 +29,7 @@ description: "A snapshot of what the Independent Impact platform delivers today 
     title="Project Design Document (PDD) creation"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Create, revise, and submit PDDs for peer validation through the [project developer portal](https://app.independentimpact.org)."
+    description="Create, revise, and submit PDDs for peer validation through the [Project Development Portal](https://app.independentimpact.org)."
     features="Complete generic PDD template"
 >}}
 
@@ -37,7 +37,7 @@ description: "A snapshot of what the Independent Impact platform delivers today 
     title="Project Design Document (PDD) validation"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Validator workflows with paragraph-level feedback and approval live in the [project developer portal](https://app.independentimpact.org)."
+    description="Validator workflows with paragraph-level feedback and approval live in the [Project Development Portal](https://app.independentimpact.org)."
     features="Paragraph-level review,Corrective action requests,Forward action requests,Final approval & registration"
 >}}
 
