@@ -24,6 +24,8 @@ Until we publish dedicated intake forms, reach us at [info@independentimpact.org
 - If there are sensitive datasets or privacy requirements we should plan for.
 - For greenhouse gas methodology questions or collaboration, join the [GHG Methodologies discussions](https://github.com/IndependentImpact/GHG_methodologies/discussions).
 - For Guardian API automation topics, participate in the [Guardener discussions](https://github.com/IndependentImpact/Guardener/discussions).
+- For Hedera ontology feedback or modelling ideas, use the [Bhash discussions](https://github.com/IndependentImpact/Bhash/discussions).
+- For Web3.Storage CLI integrations, share input in the [w3cli discussions](https://github.com/IndependentImpact/w3cli/discussions).
 
 ## What happens next
 
