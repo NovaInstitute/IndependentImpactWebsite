@@ -5,7 +5,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< hero
     headline="Independent Impact"
-    sub_headline="A radically open platform for reporting, quantifying, and verifying human impact with transparency, community oversight, and verifiable technology."
+    sub_headline="A fundamentally open platform for reporting, quantifying, and verifying human impact with transparency, community oversight, and verifiable technology."
     primary_button_text="Explore our philosophy"
     primary_button_url="/our-story/why-independent-impact/"
     secondary_button_text="Project Development Portal"
