@@ -24,23 +24,23 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 >}}
 
 {{< feature
+    title="Open, but meritocratic"
+    description="Participation is open to implementers, validators, verifiers, and methodology developers. Reputation, earned through quality contributions and peer evaluation, governs what actions each participant can take."
+    features="Visible reputation for creators and reviewers, Peer evaluation at every stage, Incentives for continual quality improvements"
+    imagePosition="right"
+>}}
+
+{{< feature
     title="Transparent, not prescriptive"
     description="Independent Impact is designed so users can clearly interpret every quantified outcome while choosing the metrics, assurance levels, and estimation approaches that meet their needs."
-    features="Flexible impact metrics,Clear disclosure of methodologies,User-driven assurance requirements"
+    features="Flexible impact metrics, Clear disclosure of methodologies, User-driven assurance requirements"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Open but meritocratic"
-    description="Participation is open to implementers, validators, verifiers, and methodology developers. Reputation, earned through quality contributions and peer evaluation, governs what actions each participant can take."
-    features="Visible reputation for creators and reviewers,Peer evaluation at every stage,Incentives for continual quality improvements"
-    imagePosition="right"
->}}
-
-{{< feature
-    title="Immutable yet accessible"
+    title="Immutable, yet accessible"
     description="Proven distributed technologies protect artefacts and transactions while making every action auditable. Users can interrogate projects, credentials, and impact claims in depth."
-    features="Content-addressed artefact storage,Distributed ledger journaling,Queryable history of actions and controls"
+    features="Content-addressed artefact storage, Distributed ledger journaling, Queryable history of actions and controls"
     imagePosition="right"
 >}}
 
