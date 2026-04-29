@@ -10,13 +10,17 @@ description: "Independent Impact makes transparent, verifiable human impact acco
     primary_button_url="/our-story/why-independent-impact/"
     secondary_button_text="Project Development Portal"
     secondary_button_url="https://app.independentimpact.org"
-    tertiary_button_text="Impact Explorer"
-    tertiary_button_url="https://chat.independentimpact.org/?view=chatbot"
     hero_image="/images/Yellow-honeycomb-bees.jpg"
     gradient-from="#e0f2fe"
     gradient-to="#ede9fe"
     gradient-angle="160"
 >}}
+
+<!--
+Hero tertiary pill temporarily disabled:
+    tertiary_button_text="Impact Explorer"
+    tertiary_button_url="https://chat.independentimpact.org/?view=chatbot"
+-->
 
 {{< features-section
     title="Our Philosophy"
@@ -78,7 +82,7 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< features-section
     title="Roadmap"
-    description="Independent Impact is under active development. We have built core capabilities and are expanding the platform to with additional features to support a indicator and methodology development build a community of impact creators."
+    description="Independent Impact is under active development. We have built core capabilities and are expanding the platform with additional features to support a indicator and methodology development build a community of impact creators."
 >}}
 
 {{< feature
@@ -138,8 +142,8 @@ description: "Independent Impact makes transparent, verifiable human impact acco
 
 {{< feature
     title="AI-powered impact browser"
-    badge="Completed"
-    badgeColor="#25eb85ff"
+    badge="In Progress"
+    badgeColor="#eb9525ff"
     description="AI tools help users explore and understand impact data with natural language search and assisted explanations via the [Impact Explorer](https://chat.independentimpact.org/?view=chatbot)."
     features="Natural language queries, Contextual explanations, Query generation"
     imagePosition="right"
