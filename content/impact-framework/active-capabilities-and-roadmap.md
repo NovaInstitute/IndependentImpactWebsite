@@ -5,110 +5,90 @@ description: "A snapshot of what the Independent Impact platform delivers today 
 ---
 
 {{< features-section
-    title="Active Capabilities"
-    description="Completed milestones make it possible to onboard, design, validate, and explore impact projects today."
+    title="Roadmap"
+    description="Independent Impact is under active development. We have built core capabilities and are expanding the platform with additional features to support a indicator and methodology development build a community of impact creators."
 >}}
 
 {{< feature
     title="Integration with Hedera Consensus Service"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="All significant platform events are captured on HCS for tamper-evident sequencing and auditability."
-    features="User registrations,Project submissions,Validation & Verification,Credential issuances,Reputation updates"
+    description="The Hedera Consensus Service (HCS) is at the core of everything that happens on Independent Impacts. All significant events on Independent Impacts is captured on HCS."
+    features="User registrations, Project submissions, Validation & Verification, Credential issuances, Reputation updates"
+    imagePosition="right"
 >}}
 
 {{< feature
     title="User registration and identity"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Register and link decentralised identifiers inside the [Project Development Portal](https://app.independentimpact.org)."
-    features="Standards body,Project developer,Validator,Verifier"
+    description="Basic functionality for registering users and linking their Decentralised Identifiers (DIDs) to their accounts is live on the [project developer portal](https://app.independentimpact.org)."
+    features="Standards body, Project developer, Validator, Verifier"
+    imagePosition="right"
 >}}
 
 {{< feature
     title="Project Design Document (PDD) creation"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Create, revise, and submit PDDs for peer validation through the [Project Development Portal](https://app.independentimpact.org)."
+    description="Project developers can create and submit PDDs for peer validation directly in the [project developer portal](https://app.independentimpact.org)."
     features="Complete generic PDD template"
+    imagePosition="right"
 >}}
 
 {{< feature
     title="Project Design Document (PDD) validation"
     badge="Completed"
     badgeColor="#25eb85ff"
-    description="Validator workflows with paragraph-level feedback and approval live in the [Project Development Portal](https://app.independentimpact.org)."
-    features="Paragraph-level review,Corrective action requests,Forward action requests,Final approval & registration"
->}}
-
-{{< feature
-    title="AI-powered impact browser"
-    badge="Completed"
-    badgeColor="#25eb85ff"
-    description="Natural-language search and assisted explanations help teams explore verified impact data via the [Impact Explorer](https://chat.independentimpact.org/?view=chatbot)."
-    features="Natural language queries,Contextual explanations,Query generation"
->}}
-
-{{< /features-section >}}
-
-{{< features-section
-    title="In Progress"
-    description="Active projects that extend transparency, tooling, and learning incentives across the ecosystem."
+    description="PDD validation workflow for validator and project developer is available in the [project developer portal](https://app.independentimpact.org)."
+    features="Paragraph-level review and approval, Corrective action requests and resolution, Forward action requests, Final approval and projecy registration"
+    imagePosition="right"
 >}}
 
 {{< feature
     title="Reputation system"
     badge="In Progress"
     badgeColor="#eb9525ff"
-    description="Scoring for agents and controls will surface trusted contributors across methodologies, projects, and validation roles."
-    features="Indicators,Methods,Project developers,Project participants,Validators & verifiers,Standards bodies"
+    description="Reputation system that tracks and displays reputation scores for all participants."
+    features="Indicators, Methods, Project developers, Project participants, Validators & verifiers, Standards bodies, Public display of reputation scores"
+    imagePosition="right"
 >}}
+
 
 {{< feature
     title="First mile data collection tools"
     badge="In Progress"
     badgeColor="#eb9525ff"
-    description="Mobile and SurveyCTO integrations will capture verifiable evidence directly from the field."
-    features="SurveyCTO plugin,Mobile app toolkit"
+    description="Create tools for collecting verifiable data from the field"
+    features="Survey CTO plugin, Mobile app toolkit"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="AI-powered impact browser"
+    badge="In Progress"
+    badgeColor="#eb9525ff"
+    description="AI tools help users explore and understand impact data with natural language search and assisted explanations via the [Impact Explorer](https://chat.independentimpact.org/?view=chatbot)."
+    features="Natural language queries, Contextual explanations, Query generation"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Indicators and metrics library"
+    badge="Planned"
+    badgeColor="#5d25ebff"
+    description="A library of impact indicators and metrics"
+    features="Standardised impact indicator format, Standardised impact metrics format, Comment and finalisation process, Registry of finalised indicators and metrics, Portal and tools for indicator and metric development"
+    imagePosition="right"
 >}}
 
 {{< feature
     title="Impact methodologies library"
     badge="In Progress"
     badgeColor="#eb9525ff"
-    description="Methodology packages are rolling out for [large-scale ACM](https://independentimpact.github.io/GHG_methodologies/#large-scale-methodologies-acm) and [small-scale AMS](https://independentimpact.github.io/GHG_methodologies/#small-scale-methodologies-ams) implementations."
-    features="Standardised methodology format,Comment and finalisation process,Registry of methodologies,Portal and tooling"
->}}
-
-{{< /features-section >}}
-
-{{< features-section
-    title="Planned"
-    description="Upcoming initiatives that expand the platform’s reach and learning incentives."
->}}
-
-{{< feature
-    title="Indicators & metrics library"
-    badge="Planned"
-    badgeColor="#5d25ebff"
-    description="Shared registries for indicators and metrics will make comparative analysis straightforward."
-    features="Standardised indicator format,Standardised metrics format,Comment & finalisation,Public registry"
->}}
-
-{{< feature
-    title="Rapid implementation toolkit"
-    badge="Planned"
-    badgeColor="#5d25ebff"
-    description="Templates, training, and dashboards will help community projects launch and monitor quickly."
-    features="Methodology integration,Data collection tooling,Training resources,Implementation dashboards"
->}}
-
-{{< feature
-    title="Public reporting platform"
-    badge="Planned"
-    badgeColor="#5d25ebff"
-    description="Discovery and reporting interfaces will let regulators, funders, and the public interrogate verified outcomes."
-    features="Search & filter,Project & portfolio summaries,Downloadable reports"
+    description="A library of impact methodologies by indicator is rolling out, with published R packages for [large-scale ACM](https://independentimpact.github.io/GHG_methodologies/#large-scale-methodologies-acm) and [small-scale AMS](https://independentimpact.github.io/GHG_methodologies/#small-scale-methodologies-ams) use cases."
+    features="Standardised methodology format, Comment and finalisation process, Registry of finalised methodologies, Portal and tools and methodology development"
+    imagePosition="right"
 >}}
 
 {{< feature
@@ -116,16 +96,26 @@ description: "A snapshot of what the Independent Impact platform delivers today 
     badge="Planned"
     badgeColor="#5d25ebff"
     description="Hedera Learning Tokens will reward ongoing contributions and training milestones."
-    features="Implement learning token specification,Build user toolkit,Pilot learning-token incentives"
+    features="Implement learning token specification for Hedera Token Service,Build user toolkit,Pilot learning-token incentives"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Rapid implementation toolkit"
+    badge="Planned"
+    badgeColor="#5d25ebff"
+    description="Make community-based projects implementable with minimal technical inputs. Pre-packaged implementation monitoring and impact monitoring tools so community-level projects can get started quickly"
+    features="Integrate methodologies with data collection and reporting tools, Training materials and support, Implementation tracking dashboard"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Public reporting platform"
+    badge="Planned"
+    badgeColor="#5d25ebff"
+    description="A public platform for exploring and reporting achieved verified impacts"
+    features="Search and filter by project / indicator / metric / geography etc., Project and portfolio level summaries, Downloadable reports"
+    imagePosition="right"
 >}}
 
 {{< /features-section >}}
-
-{{< feature-paragraph
-    title="Partner with us"
-    width="max-w-4xl"
-    align="left"
-    padding="py-8 sm:py-12"
->}}
-_We review roadmap priorities with partners on a rolling basis. Which capabilities should we accelerate?_ Reach out via the contact page to share requirements or to join a pilot.
-{{< /feature-paragraph >}}
