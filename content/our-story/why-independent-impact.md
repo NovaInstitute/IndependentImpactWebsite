@@ -2,6 +2,7 @@
 title: "Why Independent Impact"
 layout: "simple"
 description: "We are building a transparent, reputation-led alternative to opaque impact reporting."
+weight: 2
 ---
 
 {{< feature-paragraph

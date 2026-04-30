@@ -25,7 +25,7 @@ paginate = 6
 paginatePath = "page"
 
 [params]
-  description = "Independent Impact"
+  description = "A fundamentally open platform for reporting, quantifying, and verifying human impact with transparency, community governance, and verifiable technology."
   author = "Nova Institute"
   logo = "/images/logos/IILOGO2.png"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
@@ -51,12 +51,6 @@ paginatePath = "page"
     twitter = "https://x.com/IndiImpact"
     youtube = "https://www.youtube.com/NovaInstitute"
     github = "https://github.com/independentimpact"
-  
-  # Footer Configuration
-  [params.footer]
-    column_1_title = "Features"
-    column_2_title = "Organisation"
-    column_3_title = "Legal"
   
   [params.header]
     # Header background and border styles (optional)
@@ -184,9 +178,9 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
+        { name = "Team", url = "/our-story/team/" },
         { name = "Why Independent Impact", url = "/our-story/why-independent-impact/" },
         { name = "Nova’s Impact Journey", url = "/our-story/nova-impact-journey/" },
-        { name = "Team", url = "/our-story/team/" },
         { name = "History", url = "/our-story/history/" }
       ]
   [[menu.main]]
@@ -218,61 +212,3 @@ paginatePath = "page"
     name = "Contact"
     url = "/contact/how-to-engage/"
     weight = 5
-
-  # Footer Column 1 Menu
-  [[menu.footer_column_1]]
-    name = "Technical Architecture"
-    url = "/impact-framework/technical-architecture/"
-    weight = 1
-  [[menu.footer_column_1]]
-    name = "Impact Workflows"
-    url = "/impact-framework/impact-workflows/"
-    weight = 2
-  [[menu.footer_column_1]]
-    name = "Active Capabilities & Roadmap"
-    url = "/impact-framework/active-capabilities-and-roadmap/"
-    weight = 3
-
-  # Footer Column 2 Menu
-  [[menu.footer_column_2]]
-    name = "Why Independent Impact"
-    url = "/our-story/why-independent-impact/"
-    weight = 1
-  [[menu.footer_column_2]]
-    name = "Nova’s Impact Journey"
-    url = "/our-story/nova-impact-journey/"
-    weight = 2
-  [[menu.footer_column_2]]
-    name = "Team"
-    url = "/our-story/team/"
-    weight = 3
-  [[menu.footer_column_2]]
-    name = "History"
-    url = "/our-story/history/"
-    weight = 4
-
-  # Footer Column 3 Menu
-  [[menu.footer_column_3]]
-    name = "Project Implementers & Developers"
-    url = "/get-started/project-implementers/"
-    weight = 1
-  [[menu.footer_column_3]]
-    name = "Peer Validators"
-    url = "/get-started/peer-validators/"
-    weight = 2
-  [[menu.footer_column_3]]
-    name = "Methodology Creators"
-    url = "/get-started/methodology-creators/"
-    weight = 3
-  [[menu.footer_column_3]]
-    name = "Contact"
-    url = "/contact/how-to-engage/"
-    weight = 4
-  [[menu.footer_column_3]]
-    name = "Terms & licensing"
-    url = "/license"
-    weight = 5
-  [[menu.footer_column_3]]
-    name = "Data stewardship"
-    url = "/privacy"
-    weight = 6

@@ -2,6 +2,7 @@
 title: "Team"
 layout: "simple"
 description: "Independent Impact is built by practitioners who blend community development, verification science, and software engineering."
+weight: 1
 ---
 
 {{< section-container class="py-20 bg-gray-50" >}}

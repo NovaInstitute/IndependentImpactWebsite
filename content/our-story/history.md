@@ -2,6 +2,7 @@
 title: "History"
 layout: "simple"
 description: "Milestones that shaped Independent Impact’s approach to verifiable human impact accounting."
+weight: 4
 ---
 
 Independent Impact grows from a decade of experimentation in verifiable impact accounting. Highlights include:
