@@ -74,8 +74,8 @@ Hero tertiary pill temporarily disabled:
 >}}
 
 {{< feature
-    title="Locally driven social / enviromental campaigns"
-    description="Local communities to drive social and environmental initiatives. Follow these steps:<ol><li>Create indicators for desired outcomes.</li><li> Create reputation system for contributers.</li><li>Place bounties for outcomes.</li><li>Receive evaluations from verifiers and public.</li></ol>"
+    title="Locally driven social / environmental campaigns"
+    description="Local communities to drive social and environmental initiatives. Follow these steps:<ol><li>Create indicators for desired outcomes.</li><li> Create reputation system for contributors.</li><li>Place bounties for outcomes.</li><li>Receive evaluations from verifiers and public.</li></ol>"
 
 >}}
 
