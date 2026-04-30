@@ -24,7 +24,7 @@ Hero tertiary pill temporarily disabled:
 
 {{< features-section
     title="Our Philosophy"
-    description="Independent Impact balances openness with quality so participants can understand exactly what every token or verifiable credential represents."
+    description="Independent Impact fosters quality through openness because we ensure participants can understand exactly what every token or verifiable credential represents."
 >}}
 
 {{< feature
@@ -51,87 +51,44 @@ Hero tertiary pill temporarily disabled:
 {{< /features-section >}}
 
 {{< features-section
-    title="How it works: The project development journey"
-    description="Independent Impact links transparent project documentation with peer validation and verifiable credentials."
+    title="Use cases"
+    description="The one impact accounting platform you need: Independent Impact provides a platform for a wide variety of impact accounting use cases."
 >}}
 
 {{< feature
-    title="Establish your identity"
-    description="Log into the [project developer portal](https://app.independentimpact.org) and register with your email. We will create a Hedera Account. Hedera wallet login coming soon."
+    title="Voluntary GHG offsetting"
+    description="All the tools you need for traditional voluntary carbon market projects: start to finish."
+    features="Project listing and token creation, [PDD development and validation](https://app.independentimpact.org), Digitised [methodologies](https://githib.com/IndependentImpact), Monitoring tools, Verifiable [compute](https://jellyfish.xyz), Token issuance"
 >}}
 
 {{< feature
-    title="Document your project"
-    description="Capture intentions, safeguards, and evidence using shared templates so peers can interrogate every claim."
-    features="Project design documents,Immutable artefact storage,HCS event journaling"
+    title="Government services"
+    description="Follow these steps:<ol><li>Create indicators for public services.</li><li>Create reputation requirements or whitelist for service providers.</li><li>Place bounties for outcomes.</li><li>Receive evaluations from verifiers and public.</li></ol>"
+    features="Cleaning campaigns, Removal of exotic invaders, School feeding schemes, Public health initiatives."
 >}}
 
 {{< feature
-    title="Earn peer validation"
-    description="Route reviews to validators and verifiers whose reputation matches the assurance level you need."
-    features="Reputation-aware assignments,Paragraph-level feedback,Cryptographically signed attestations"
+    title="Citizen science"
+    description="Build large-scale citizen science projects: Create data collection protocols and tools, then let the public submit data and earn reputation for quality contributions."
+    features="Pollution monitoring, Biodiversity surveys, Water quality,Fire risk"
 >}}
 
 {{< feature
-    title="Issue verifiable outcomes"
-    description="Publish transparent credentials and tokens that downstream partners can trust and audit."
-    features="W3C verifiable credentials,Jellyfish-powered recomputation,Hedera Token Service integration"
->}}
+    title="Locally driven social / enviromental campaigns"
+    description="Local communities to drive social and environmental initiatives. Follow these steps:<ol><li>Create indicators for desired outcomes.</li><li> Create reputation system for contributers.</li><li>Place bounties for outcomes.</li><li>Receive evaluations from verifiers and public.</li></ol>"
 
-{{< /features-section >}}
-
-{{< features-section
-    title="Technical Architecture"
-    description="Independent Impact combines decentralised identity, verifiable data, and distributed compute to safeguard integrity across the impact lifecycle."
 >}}
 
 {{< feature
-    title="Hedera Consensus Service"
-    description="Event journaling on Hedera provides a tamper-evident record of submissions, evaluations, and verifications across the platform."
-    features="Immutable event history,Transparent sequencing of actions,Low-latency consensus"
-    imagePosition="right"
+    title="CSI reporting"
+    description="Corporate Social Investment (CSI) refers to a company's strategic allocation of resources toward external social, community, or developmental initiatives that go beyond its core business operations."
+    features="Tracking spend, Tracking supported activities, Tracking outcomes, Verifiable reporting to stakeholders"
 >}}
 
 {{< feature
-    title="W3C Decentralised Identifiers"
-    description="DIDs anchor every participant’s identity, linking actions to accountable agents while keeping the system open to new entrants."
-    features="Standards-based identifiers,Interoperable agent onboarding,Verifiable agent controls"
-    imagePosition="right"
->}}
-
-{{< feature
-    title="W3C Verifiable Credentials"
-    description="Verifiable credentials encode evaluations, validations, and impact claims so that downstream users can trust the provenance of every assertion."
-    features="Cryptographically signed attestations,Portable credentials,Selective disclosure for relying parties"
-    imagePosition="right"
->}}
-
-{{< feature
-    title="IPFS for Artefacts"
-    description="Impact documentation lives in content-addressed storage, ensuring artefacts stay accessible and immutable long after issuance."
-    features="Permanent artefact references,Peer-to-peer distribution,Integrity checking through hashes"
-    imagePosition="right"
->}}
-
-{{< feature
-    title="Jellyfish Verifiable Compute"
-    description="Deterministic verification pipelines executed with Jellyfish make quantitative assessments reproducible and auditable."
-    features="Transparent calculation workflows,Provenance for computational steps,Extensible verification logic"
-    imagePosition="right"
->}}
-
-{{< feature
-    title="Fluree Semantic Database"
-    description="Fluree’s cryptographically secured, time-travelable graph keeps the platform’s knowledge base coherent while preserving historical context."
-    features="Traceable data lineage,Granular access controls,Immutable version history"
-    imagePosition="right"
->}}
-
-{{< feature
-    title="Hedera Token Service"
-    description="Verified impacts can be tokenised, making it possible to transact on outcomes whose provenance and assurance are transparent to every buyer."
-    features="Programmable impact tokens,Reputation-aware issuance,Integration with broader ecosystems"
-    imagePosition="right"
+    title="Outcomes-based philanphropy"
+    description="A better way to fund social and environmental initiatives based on measurable outcomes."
+    features="Bounties for outcomes, Reputation-based assignment of verifiers, Verifiable reporting to donors and stakeholders"
 >}}
 
 {{< /features-section >}}

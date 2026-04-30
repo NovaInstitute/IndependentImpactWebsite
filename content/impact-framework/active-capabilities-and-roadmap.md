@@ -2,6 +2,7 @@
 title: "Active Capabilities & Roadmap"
 slug: "active-capabilities-and-roadmap"
 description: "A snapshot of what the Independent Impact platform delivers today and where the next releases are headed."
+layout: "frameless"
 ---
 
 {{< features-section

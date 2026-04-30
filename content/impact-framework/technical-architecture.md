@@ -2,33 +2,63 @@
 title: "Technical Architecture"
 slug: "technical-architecture"
 description: "Independent Impact combines decentralised identity, verifiable data, and distributed compute to make impact accounting trustworthy and auditable."
+layout: "frameless"
 aliases:
   - /features/platform-architecture/
 ---
 
 {{< features-section
     title="Technical Architecture"
-    description="Independent Impact combines decentralised identity, verifiable data, and distributed compute to make impact accounting trustworthy and auditable."
+    description="Independent Impact combines decentralised identity, verifiable data, and distributed compute to safeguard integrity across the impact lifecycle."
 >}}
 
 {{< feature
-    title="Event journaling on Hedera"
-    description="Every submission, evaluation, and verification step is immutably recorded using the Hedera Consensus Service, providing a tamper-evident timeline of actions."
+    title="Hedera Consensus Service"
+    description="Event journaling on Hedera provides a tamper-evident record of submissions, evaluations, and verifications across the platform."
+    features="Immutable event history,Transparent sequencing of actions,Low-latency consensus"
+    imagePosition="right"
 >}}
 
 {{< feature
-    title="Verifiable identities and attestations"
-    description="W3C DIDs anchor agent identities while W3C Verifiable Credentials encode attestations that buyers and peers can independently verify."
+    title="W3C Decentralised Identifiers"
+    description="DIDs anchor every participant’s identity, linking actions to accountable agents while keeping the system open to new entrants."
+    features="Standards-based identifiers,Interoperable agent onboarding,Verifiable agent controls"
+    imagePosition="right"
 >}}
 
 {{< feature
-    title="Immutable artefact storage"
-    description="Project documentation and evidentiary artefacts are stored on IPFS, ensuring they remain accessible and provably unaltered."
+    title="W3C Verifiable Credentials"
+    description="Verifiable credentials encode evaluations, validations, and impact claims so that downstream users can trust the provenance of every assertion."
+    features="Cryptographically signed attestations,Portable credentials,Selective disclosure for relying parties"
+    imagePosition="right"
 >}}
 
 {{< feature
-    title="Reputation-aware tokenisation"
-    description="The Hedera Token Service allows verified outcomes to be tokenised with clear links to the agents and controls responsible for their quality."
+    title="IPFS for Artefacts"
+    description="Impact documentation lives in content-addressed storage, ensuring artefacts stay accessible and immutable long after issuance."
+    features="Permanent artefact references,Peer-to-peer distribution,Integrity checking through hashes"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Jellyfish Verifiable Compute"
+    description="Deterministic verification pipelines executed with Jellyfish make quantitative assessments reproducible and auditable."
+    features="Transparent calculation workflows,Provenance for computational steps,Extensible verification logic"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Fluree Semantic Database"
+    description="Fluree’s cryptographically secured, time-travelable graph keeps the platform’s knowledge base coherent while preserving historical context."
+    features="Traceable data lineage,Granular access controls,Immutable version history"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Hedera Token Service"
+    description="Verified impacts can be tokenised, making it possible to transact on outcomes whose provenance and assurance are transparent to every buyer."
+    features="Programmable impact tokens,Reputation-aware issuance,Integration with broader ecosystems"
+    imagePosition="right"
 >}}
 
 {{< /features-section >}}
